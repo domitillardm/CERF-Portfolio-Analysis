@@ -1,0 +1,62 @@
+# Authoritative inputs and analysis outputs: never commit by default.
+/02_ACTIVITY_DATA/**
+!/02_ACTIVITY_DATA/README.md
+/07_RESULTS/**
+!/07_RESULTS/README.md
+/private/
+/confidential/
+/sensitive/
+**/raw_data/
+**/private/
+**/confidential/
+
+# Credentials and local configuration.
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+.aws/
+.ssh/
+.azure/
+.config/
+
+# Common dataset containers, anywhere in the checkout.
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.sqlite
+*.sqlite3
+*.db
+*.csv
+!/06_DECISIONS/decision_register.csv
+!/05_VALIDATION/activity_scoring_register.csv
+!/**/06_DECISIONS/decision_register.csv
+*.ipynb
+*.zip
+*.tar
+*.gz
+
+# Local tools, caches and temporary/editor output.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+node_modules/
+.DS_Store
+*.tmp
+*.temp
+*.swp
+*~
+/tmp/
+/scratch/
+
+# Non-sensitive JSON audit records and CSV decision/validation registers are
+# intentionally eligible for Git. Review their contents before every commit.
