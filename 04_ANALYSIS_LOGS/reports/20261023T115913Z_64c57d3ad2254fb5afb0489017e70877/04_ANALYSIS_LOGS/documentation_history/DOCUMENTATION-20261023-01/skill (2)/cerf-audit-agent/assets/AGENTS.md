@@ -1,0 +1,10 @@
+# CERF portfolio Codex operating rules
+Read `00_START_HERE.md`, `handover.json`, methodology, decisions and validation issues before acting. Assume the reader knows nothing about CERF. Treat all unapproved scores and rules as provisional. Never modify authoritative inputs in place.
+
+For every session: record a session identifier, actor, objective and scope; capture meaningful discussions, attempted/failed experiments, corrections and uncertainties with `scripts/session_log.py`. This is a structured summary, NOT an automatic verbatim conversation archive. Use `scripts/audit_run.py` for each substantive executable analysis, declaring inputs, outputs and rules version. Never say unwrapped work was captured.
+
+After each session: update `handover.json` (preserve prior status via version control or SharePoint history), record unresolved questions and provisional decisions, regenerate `00_START_HERE.md`, internal deep dive and client draft, and show the user a short review covering completed work, changes, validation, failures, next actions and logging gaps. Require human approval before promoting a decision or output to approved.
+
+Maintain an activity-level audit table with activity ID, dataset version, rules version, AI classification, evidence reference, confidence/uncertainty explanation, validation state, reviewer, correction and timestamp. Never infer that a scoring rationale proves the classification. Use actual evidence and explicit missing-data codes.
+
+SharePoint is the team publication location. Codex Cloud task workspaces may be ephemeral: changes must be exported/committed to an approved durable workspace. Do not claim SharePoint sync without checking actual uploaded files and permissions. Without an approved connector, prepare a publication folder and tell a colleague to upload it. Avoid simultaneous edits of authoritative spreadsheets; use assigned ownership and versioned files. Do not store raw interviews, personal information, credentials or confidential links in logs.

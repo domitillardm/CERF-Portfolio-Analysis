@@ -1,0 +1,67 @@
+{
+  "purpose": "Support the CERF End-Term Evaluation with portfolio breadth across tracks: reported activities/results, possible pathways, evidence quality, recurring mechanisms and provisional findings/hypotheses; context supplied by project owner.",
+  "phase": "Documentation proposal for review; current substantive priority is grading-instruction improvement and country-track analysis. No grading in this session.",
+  "authoritative_dataset": "Preparation and anonymisation completed outside this repository according to project owner; authoritative dataset/version, access reference and validation records not yet linked or independently checked.",
+  "approved_rules": "No approved scoring framework supplied. Review existing prompts/rules and exact Inception Report scoring table before proposing revised definitions; CERF-M001 is provisional. Existing scoring_rules.md unchanged.",
+  "validated_output": "No substantive CERF output validated in this repository. Setup tests previously reported passed with synthetic fixtures only; current-session documentation accessibility and static checks do not validate classifications.",
+  "owner": "Project owner supplied context and instructions in this chat; named contact, designated human reviewers and methodological approval authority NOT YET CONFIRMED.",
+  "next_action": "Review documentation; obtain secure versions/references for prepared data and validation, existing scores/prompts/rules and Inception Report table; confirm scope, country-track mapping, reviewers and CERF-M001. No grading, commit or push before relevant approval.",
+  "blocker": "Source and validation links, approved scoring definitions, baseline score versions, country-track details, named reviewers and confidence/adjudication protocol remain pending; documentation review and commit/push approval outstanding.",
+  "latest_session": "DOCUMENTATION-20261023-01",
+  "latest_report": "04_ANALYSIS_LOGS/reports/20261023T115913Z_64c57d3ad2254fb5afb0489017e70877",
+  "context_source": {
+    "type": "project-owner instructions in current chat",
+    "date": "2026-10-23",
+    "status": "owner-provided; documentation awaits review; external completion claims not independently checked"
+  },
+  "analytical_structure": {
+    "main_unit": "CERF tracks",
+    "supporting_evidence": "Activities organised by country, track and chronological order",
+    "country_track_summary": "Highest human-checked activity score proposed (CERF-M001), pending confirmation; do not apply"
+  },
+  "completed_reported": [
+    "External data preparation and anonymisation according to owner; supporting records pending",
+    "Existing AI scores referenced by owner; baseline file/version and review status pending"
+  ],
+  "completed_verified": [
+    "Repository audit/reporting scripts accessible in this Cloud session",
+    "Setup commit b51a58eea6f9a870f2d6ce4ead5692939b8c879d present locally"
+  ],
+  "current_priorities": [
+    "Review and improve AI grading instructions using the Inception Report scoring table",
+    "Introduce country-track analysis with country/track/chronological organisation"
+  ],
+  "planned_stages": [
+    "Locate authoritative sources and approvals",
+    "Develop separate instruction revisions for human approval",
+    "Authorised audited pilot preserving existing scores",
+    "Human review, adjudication and confidence assessment",
+    "Country-track and track synthesis",
+    "Compare with independent case-study evidence after confidence is established",
+    "Reviewed methodological appendix"
+  ],
+  "score_preservation": "Existing AI scores remain unchanged; revised proposals and human-final decisions must be separately versioned and traceable.",
+  "pending_decisions": [
+    "CERF-M001: maximum human-checked activity score per country-track",
+    "Revised scoring definitions and instructions after source review",
+    "Country-track mapping/date handling and summary details",
+    "Human review, evidence-strength, confidence and adjudication conventions"
+  ],
+  "current_session_constraints": [
+    "Documentation and audit-agent revision only",
+    "No grading or scoring-rule changes",
+    "No dataset upload or client publication",
+    "No staging, commit or push before user approval"
+  ],
+  "persistence": {
+    "setup_commit": "b51a58eea6f9a870f2d6ce4ead5692939b8c879d",
+    "local_commit_status": "Verified present in current checkout",
+    "github_status": "Verified GitHub commit according to owner; not independently queried this session",
+    "cloud_status": "Setup files accessible in this new Cloud session; fresh GitHub retrieval and future restoration not demonstrated",
+    "sharepoint_status": "No sync configured; upload and permissions not verified",
+    "documentation_changes": "Local proposed changes; uncommitted and unpushed pending user approval"
+  },
+  "documentation_history": "04_ANALYSIS_LOGS/documentation_history/DOCUMENTATION-20261023-01",
+  "handbook": "01_METHODOLOGY/PROJECT_EXPLAINED.md",
+  "internal_guide": "09_INTERNAL_DEEP_DIVE/technical_and_decision_history.md"
+}

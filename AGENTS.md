@@ -10,6 +10,24 @@ Reusable agent instructions remain in `skill (2)/cerf-audit-agent/SKILL.md` and
 `skill (2)/cerf-audit-agent/assets/AGENTS.md`. This root file specifies the safe
 reporting and persistence workflow for this installation.
 
+Project context is in `01_METHODOLOGY/PROJECT_EXPLAINED.md`. Tracks are the main
+analytical unit; activities support country-track analysis in chronological order.
+Distinguish achieved results from potential and classification from evidence
+strength. Monitoring outcome claims are not independently verified findings.
+Missing evidence is not proof of no results; frequencies are not success rates.
+Codex proposes; humans decide final scores and approve methodological changes.
+
+Preserve existing AI scores unchanged and store any later proposed revisions
+separately with baseline/version links. Review the existing prompts/rules and
+Inception Report scoring table before proposing definitions. The proposed highest
+human-checked activity score per country-track (`CERF-M001`) is unapproved; do not
+apply it. Establish classification confidence before independent case-study
+comparison. Owner-reported external data preparation is not repository validation.
+Record source, evidence status and unresolved approval for each substantive claim.
+Current documentation work authorises no grading, scoring-rule edits, dataset
+uploads or client publication. Present changes for review; no commit/push until
+the user approves. Preserve prior documents as well as generated report history.
+
 - Start with `python3 scripts/setup_project.py`. Setup only creates missing files;
   never replace project documentation, input data, analysis or approved rules.
 - Confirm authoritative anonymised input, rules version, scope, owner and approval

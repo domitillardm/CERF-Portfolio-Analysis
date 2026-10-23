@@ -1,0 +1,2 @@
+decision_id,date,decision,rationale,status,approved_by
+CERF-M001,2026-10-23,PROPOSED: use the highest human-checked activity score within each country-track combination; not approved or applied.,"Meeting proposal reported by owner in this chat on the registration date; meeting date/minutes not supplied. Confirm score dimension, human-check standard, eligible activities, missing reviews/scores, ties, chronology, achieved versus potential and accompanying evidence strength before a human decision.",provisional,

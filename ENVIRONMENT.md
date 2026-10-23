@@ -12,8 +12,10 @@ Setup creates only missing files and relative script links. It does not overwrit
 documentation, change methodology, install a second checkout or move/delete data.
 The reusable skill package remains in `skill (2)/cerf-audit-agent/`.
 
-The initial folders contain placeholders, not approved methodology or validated
-analysis. Keep authoritative data outside Git or in ignored `02_ACTIVITY_DATA/`.
+The handbook now records owner-provided project context. Scoring rules remain a
+placeholder; no approved scoring framework or validated CERF analysis is supplied.
+External data preparation and anonymisation are owner-reported, with supporting
+records still to be linked. Keep authoritative data outside Git or in ignored `02_ACTIVITY_DATA/`.
 Outputs in `07_RESULTS/` are also ignored by default. Decisions, non-sensitive
 session logs, handovers and validation documentation are eligible for Git.
 Ignore patterns cannot detect confidential content in an otherwise allowed file.
@@ -56,13 +58,25 @@ stable navigation page rather than a replaceable generated report.
 
 ## Persistence and release
 
-Local files are not yet committed. A local commit is not a push. Cloud environment
+The setup is committed as `b51a58eea6f9a870f2d6ce4ead5692939b8c879d`, present in this
+checkout and identified by the owner as verified on GitHub. Earlier reports saying
+the setup was uncommitted describe the earlier state and are preserved unchanged.
+This documentation session did not independently query GitHub. Its proposed
+changes are uncommitted and must not be committed or pushed without approval.
+A local commit is not a push. Cloud environment
 publication is a separate filesystem snapshot and does not publish Git changes.
 Before any authorized push, review the exact paths and diff for confidential
 content, including logs and report snapshots. Stage selected safe files only.
 Never force-add ignored data. After pushing, check the remote commit and clone it
 into a fresh session to verify the documentation is retrievable. Do not claim
 permanent persistence or colleague access based only on local tests.
+
+The independent handover test in this new Cloud session could read the setup
+documentation, resolve script links and check syntax/structured records using
+Python 3.12.14 and Git 2.52.0. It did not verify fresh GitHub retrieval or execute
+the synthetic suite. That suite creates temporary files and Git commits and is
+unsuitable for a read-only test. Runtime access does not establish that research
+results are reproducible. See `05_VALIDATION/handover_test_20261023.md`.
 
 `scripts/test_environment.py` uses synthetic data in temporary repositories. It
 checks repeated setup, retained existing content, audit success/failure, distinct
