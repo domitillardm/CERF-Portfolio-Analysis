@@ -1,0 +1,26 @@
+{
+  "test_only": true,
+  "approved": false,
+  "dataset_version": "SYNTHETIC-v1",
+  "rules_version": "TEST-ONLY-demo-v1",
+  "records": [
+    {
+      "id": "TEST-001",
+      "exact": "alpha",
+      "token": "alpha",
+      "uncertainty": "Invented fixture; no CERF inference; mixed labels require review",
+      "evidence": "fixtures/labels.json#TEST-001",
+      "reviewer": "NOT ASSIGNED",
+      "validation_state": "TEST ONLY; NOT APPROVED"
+    },
+    {
+      "id": "TEST-002",
+      "exact": "unclassified",
+      "token": "alpha",
+      "uncertainty": "Invented fixture; no CERF inference; mixed labels require review",
+      "evidence": "fixtures/labels.json#TEST-002",
+      "reviewer": "NOT ASSIGNED",
+      "validation_state": "TEST ONLY; NOT APPROVED"
+    }
+  ]
+}

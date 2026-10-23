@@ -35,6 +35,9 @@ secrets*
 *.csv
 !/06_DECISIONS/decision_register.csv
 !/05_VALIDATION/activity_scoring_register.csv
+!/04_ANALYSIS_LOGS/reports/*/05_VALIDATION/activity_scoring_register.csv
+!/04_ANALYSIS_LOGS/synthetic_tests/*/project/05_VALIDATION/activity_scoring_register.csv
+!/04_ANALYSIS_LOGS/synthetic_tests/*/project/04_ANALYSIS_LOGS/reports/*/05_VALIDATION/activity_scoring_register.csv
 !/**/06_DECISIONS/decision_register.csv
 *.ipynb
 *.zip

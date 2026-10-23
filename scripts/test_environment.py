@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Synthetic installation, session continuity and local Git round-trip checks."""
+import argparse
 import hashlib
 import json
 from pathlib import Path
@@ -23,6 +24,10 @@ def hashes(root):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--allow-local-git-roundtrip', action='store_true',
+                        help='Explicitly allow commits/pushes in temporary synthetic local repos')
+    args = parser.parse_args()
     with tempfile.TemporaryDirectory(prefix='cerf-continuity-') as tmp:
         base = Path(tmp)
         first = base / 'session-one'
@@ -69,7 +74,7 @@ def main():
         state = json.loads((first / 'handover.json').read_text())
         old_report = first / state['latest_report']
         assert json.loads((old_report / 'handover_before.json').read_text())['custom_context'] == state['custom_context']
-        assert '2 instrumented runs' in (old_report / '00_START_HERE.md').read_text()
+        assert '2 unclassified legacy/unspecified (excluded)' in (old_report / '00_START_HERE.md').read_text()
         client = (old_report / '08_CLIENT_APPENDIX/methodology_DRAFT.md').read_text()
         assert 'Not approved for client circulation' in client
         assert 'Synthetic provisional decision' not in client
@@ -83,6 +88,10 @@ def main():
         for path in ['AGENTS.md', 'handover.json', '04_ANALYSIS_LOGS/session_events.jsonl',
                      '06_DECISIONS/decision_register.csv', '05_VALIDATION/activity_scoring_register.csv']:
             run(first, 'git', 'check-ignore', '-q', path, expected=1)
+
+        if not args.allow_local_git_roundtrip:
+            print('PASS: setup, legacy CLI audit success/failure, reports, ignore rules; no commits or pushes.')
+            return
 
         # Only synthetic fixtures are committed to this temporary local remote.
         selected = ['AGENTS.md', '.gitignore', 'ENVIRONMENT.md', 'scripts', 'skill (2)',

@@ -1,0 +1,14 @@
+{
+  "test_only": true,
+  "version": "SYNTHETIC-v1",
+  "records": [
+    {
+      "id": "TEST-001",
+      "label": "alpha"
+    },
+    {
+      "id": "TEST-002",
+      "label": "alpha beta"
+    }
+  ]
+}

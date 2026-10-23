@@ -1,0 +1,12 @@
+{
+  "schema_version": 2,
+  "session": "SYNTHETIC-E2E-20261023-02",
+  "test_only": true,
+  "context_sha256": {
+    "01_METHODOLOGY/scoring_rules.md": "ce14672ba61f823bdfdf76f223feba2d141c25b0d459e93dc514fb43fe4aed2d",
+    "01_METHODOLOGY/PROJECT_EXPLAINED.md": "d29af39d415c3f4392cbb5de38d92d7db16039fdc67ea7f1bbb99f171901f1b6",
+    "05_VALIDATION/activity_scoring_register.csv": "7d0992ffe49706264271206506edd1ec6e56539aeada01ad1607f7f1e3b7fdbd",
+    "05_VALIDATION/issues.md": "697fe466009392d78de3557625203237189fe204e74c78b46ccbbc4cdc6a3e43"
+  },
+  "limitations": "Non-sensitive context only; source datasets and analysis outputs are not bundled."
+}

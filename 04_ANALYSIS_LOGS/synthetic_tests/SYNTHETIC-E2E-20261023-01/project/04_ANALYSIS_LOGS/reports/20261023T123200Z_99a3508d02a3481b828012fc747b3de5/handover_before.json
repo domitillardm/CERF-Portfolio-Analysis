@@ -1,0 +1,11 @@
+{
+  "purpose": "TEST ONLY synthetic documentation workflow; no CERF analysis",
+  "phase": "TEST ONLY; NOT APPROVED",
+  "authoritative_dataset": "NOT YET CONFIRMED",
+  "approved_rules": "NOT YET CONFIRMED",
+  "validated_output": "NOT YET CONFIRMED",
+  "owner": "synthetic-test-agent",
+  "next_action": "TEST ONLY baseline next action",
+  "blocker": "TEST ONLY no approved methodology",
+  "custom_test_context": "TEST ONLY unknown handover field must survive"
+}

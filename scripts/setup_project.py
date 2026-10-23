@@ -14,7 +14,7 @@ def main():
         (ROOT / name).mkdir(exist_ok=True)
     # Relative links survive cloning and checkout relocation; original tools stay
     # canonical in the reusable skill package.
-    for name in ['session_log.py', 'audit_run.py', 'refresh_status.py', 'build_appendix.py']:
+    for name in ['session_log.py', 'audit_run.py', 'refresh_status.py', 'build_appendix.py', 'audit_metadata.py']:
         path = ROOT / 'scripts' / name
         if not path.exists() and not path.is_symlink():
             path.symlink_to(Path('..') / TEMPLATE.relative_to(ROOT) / 'scripts' / name)

@@ -1,0 +1,25 @@
+{
+  "test_only": true,
+  "session": "SYNTHETIC-E2E-20261023-01",
+  "report": "04_ANALYSIS_LOGS/synthetic_tests/SYNTHETIC-E2E-20261023-01/project/04_ANALYSIS_LOGS/reports/20261023T123200Z_99a3508d02a3481b828012fc747b3de5",
+  "checks": {
+    "Unmodified copies of current workflow scripts": "PASS",
+    "Success audit has exit 0 and matching input/output fingerprints": "PASS",
+    "Intentional failure has exit 7 and absent output": "PASS",
+    "Prior handover exact bytes and unknown context preserved": "PASS",
+    "Prior synthetic report and decision preserved": "PASS",
+    "Prior real documentation, reports, decisions, handover and scripts unchanged": "PASS",
+    "Internal history includes alternatives, rationale, failure and next steps": "PASS",
+    "Overview explains what happened, failure reason and next steps": "PASS",
+    "Client draft excludes provisional decision and synthetic classification findings": "PASS",
+    "Client draft explicitly labels its execution count as synthetic TEST ONLY": "FAIL",
+    "Generated overview methodology and validation references resolve within report": "FAIL",
+    "Experiment audit records have structured session and synthetic markers": "FAIL"
+  },
+  "limitations": [
+    "Real project register was empty; nonempty preservation checked with a rejected synthetic sentinel.",
+    "No real CERF data, Git mutations, publication, hosted-session or remote persistence checks.",
+    "Original validation event overstates transcript coverage; see REVIEW.md logging gap correction. Repository reads, fixture authoring and later inspection are not in that subprocess transcript."
+  ],
+  "inspection_correction": "Initial case-sensitive Approach B check mismatched lower-case approach B. Case-insensitive inspection confirms content is present. Generated reports unchanged."
+}

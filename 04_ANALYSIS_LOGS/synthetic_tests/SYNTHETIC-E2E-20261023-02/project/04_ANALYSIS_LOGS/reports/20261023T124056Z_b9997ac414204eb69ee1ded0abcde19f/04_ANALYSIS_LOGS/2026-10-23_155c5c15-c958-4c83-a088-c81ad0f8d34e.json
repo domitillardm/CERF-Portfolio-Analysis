@@ -1,0 +1,40 @@
+{
+  "run_id": "155c5c15-c958-4c83-a088-c81ad0f8d34e",
+  "task": "SYNTHETIC-E2E-20261023-02-fail",
+  "owner": "synthetic-test-agent",
+  "rules_version": "TEST-ONLY-demo-v1",
+  "started_utc": "2026-10-23T12:40:56.277136+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "experiment.py",
+    "fail"
+  ],
+  "inputs": [
+    {
+      "path": "/workspace/CERF-Portfolio-Analysis/04_ANALYSIS_LOGS/synthetic_tests/SYNTHETIC-E2E-20261023-02/project/fixtures/labels.json",
+      "exists": true,
+      "bytes": 197,
+      "sha256": "f5c3cba155cfb3c24715435e67b016a2d31aa71e39e62932c40972efde27ac85"
+    },
+    {
+      "path": "/workspace/CERF-Portfolio-Analysis/04_ANALYSIS_LOGS/synthetic_tests/SYNTHETIC-E2E-20261023-02/project/experiment.py",
+      "exists": true,
+      "bytes": 1278,
+      "sha256": "eb5b0eb400c988979df8a3b1ce40e3bc47b3bf97c90bb900230c4a8d2c40bc84"
+    }
+  ],
+  "status": "failed",
+  "schema_version": 2,
+  "session": "SYNTHETIC-E2E-20261023-02",
+  "test_only": true,
+  "exit_code": 7,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "a144b7200ab567ff9c9f4e4ab0942a58372a403af538c38dd51f39ed2578203e",
+  "ended_utc": "2026-10-23T12:40:56.296219+00:00",
+  "outputs": [
+    {
+      "path": "/workspace/CERF-Portfolio-Analysis/04_ANALYSIS_LOGS/synthetic_tests/SYNTHETIC-E2E-20261023-02/project/outputs/never_created.json",
+      "exists": false
+    }
+  ]
+}

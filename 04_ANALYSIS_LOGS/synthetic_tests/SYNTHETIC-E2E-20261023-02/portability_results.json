@@ -1,0 +1,178 @@
+{
+  "test_only": true,
+  "local_checkout": "PASS",
+  "source_commit": "b51a58eea6f9a870f2d6ce4ead5692939b8c879d",
+  "overlay": "Uncommitted pending workflow files and isolated synthetic snapshot",
+  "relative_links_verified": [
+    {
+      "page": "00_START_HERE.md",
+      "target": "01_METHODOLOGY/PROJECT_EXPLAINED.md"
+    },
+    {
+      "page": "00_START_HERE.md",
+      "target": "01_METHODOLOGY/scoring_rules.md"
+    },
+    {
+      "page": "00_START_HERE.md",
+      "target": "05_VALIDATION/issues.md"
+    },
+    {
+      "page": "00_START_HERE.md",
+      "target": "snapshot_manifest.json"
+    },
+    {
+      "page": "09_INTERNAL_DEEP_DIVE/technical_and_decision_history.md",
+      "target": "../01_METHODOLOGY/PROJECT_EXPLAINED.md"
+    },
+    {
+      "page": "09_INTERNAL_DEEP_DIVE/technical_and_decision_history.md",
+      "target": "../01_METHODOLOGY/scoring_rules.md"
+    },
+    {
+      "page": "09_INTERNAL_DEEP_DIVE/technical_and_decision_history.md",
+      "target": "../05_VALIDATION/issues.md"
+    },
+    {
+      "page": "09_INTERNAL_DEEP_DIVE/technical_and_decision_history.md",
+      "target": "../snapshot_manifest.json"
+    },
+    {
+      "page": "08_CLIENT_APPENDIX/methodology_DRAFT.md",
+      "target": "../01_METHODOLOGY/PROJECT_EXPLAINED.md"
+    },
+    {
+      "page": "08_CLIENT_APPENDIX/methodology_DRAFT.md",
+      "target": "../01_METHODOLOGY/scoring_rules.md"
+    },
+    {
+      "page": "08_CLIENT_APPENDIX/methodology_DRAFT.md",
+      "target": "../05_VALIDATION/issues.md"
+    },
+    {
+      "page": "08_CLIENT_APPENDIX/methodology_DRAFT.md",
+      "target": "../snapshot_manifest.json"
+    }
+  ],
+  "context_hashes": "PASS",
+  "validation_register_git_eligibility": "PASS",
+  "regeneration": "PASS",
+  "github_checkout": "BLOCKED",
+  "github_failure": "git clone: Failed to connect to proxy port 8080; could not connect to server",
+  "remote_updated_version": "NOT VERIFIED: changes are uncommitted and unpushed",
+  "commands": [
+    {
+      "command": [
+        "git",
+        "clone",
+        "--quiet",
+        "--no-hardlinks",
+        "/workspace/CERF-Portfolio-Analysis",
+        "/tmp/cerf-fresh-local-5vwqymrn/checkout"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "stdout": "b51a58eea6f9a870f2d6ce4ead5692939b8c879d\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "scripts/setup_project.py"
+      ],
+      "exit_code": 0,
+      "stdout": "Prepared repository project root: /tmp/cerf-fresh-local-5vwqymrn/checkout\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "check-ignore",
+        "-q",
+        "04_ANALYSIS_LOGS/reports/TEST-RELOCATED/01_METHODOLOGY/scoring_rules.md"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "check-ignore",
+        "-q",
+        "04_ANALYSIS_LOGS/reports/TEST-RELOCATED/01_METHODOLOGY/PROJECT_EXPLAINED.md"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "check-ignore",
+        "-q",
+        "04_ANALYSIS_LOGS/reports/TEST-RELOCATED/05_VALIDATION/activity_scoring_register.csv"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "check-ignore",
+        "-q",
+        "04_ANALYSIS_LOGS/reports/TEST-RELOCATED/05_VALIDATION/issues.md"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "scripts/refresh_status.py",
+        "/tmp/cerf-fresh-local-5vwqymrn/checkout/04_ANALYSIS_LOGS/reports/TEST-RELOCATED"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "scripts/build_appendix.py",
+        "/tmp/cerf-fresh-local-5vwqymrn/checkout/04_ANALYSIS_LOGS/reports/TEST-RELOCATED"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "scripts/test_environment.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: setup, legacy CLI audit success/failure, reports, ignore rules; no commits or pushes.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "scripts/test_audit_workflow.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: mixed/legacy separation, decision exclusion, required session/flag validation,\nroot-relative hashes, immutable legacy records, missing-context preflight; no Git writes.\n",
+      "stderr": ""
+    }
+  ]
+}

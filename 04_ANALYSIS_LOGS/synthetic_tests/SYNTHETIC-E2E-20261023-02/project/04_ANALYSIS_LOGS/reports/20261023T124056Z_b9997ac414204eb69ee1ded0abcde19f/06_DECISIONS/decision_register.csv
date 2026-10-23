@@ -1,0 +1,3 @@
+decision_id,date,decision,rationale,status,approved_by
+TEST-PRIOR-REJECTED,2026-10-23,TEST ONLY prior rejected fixture; never a CERF rule,Preservation sentinel,rejected,
+SYNTHETIC-E2E-20261023-02-D1,2026-10-23,TEST ONLY; NOT APPROVED: provisionally use exact matching as the demonstration baseline,TEST ONLY: expose mixed-label ambiguity; token matching remains a comparator; no CERF rule is adopted,provisional,

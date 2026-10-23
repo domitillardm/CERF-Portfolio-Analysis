@@ -1,0 +1,39 @@
+{
+  "run_id": "d9b16b91-735b-4fea-848f-e9ae2e3a4d59",
+  "task": "SYNTHETIC-E2E-20261023-01-success",
+  "owner": "synthetic-test-agent",
+  "rules_version": "TEST-ONLY-demo-v1",
+  "started_utc": "2026-10-23T12:32:00.717423+00:00",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "experiment.py",
+    "success"
+  ],
+  "inputs": [
+    {
+      "path": "fixtures/labels.json",
+      "exists": true,
+      "bytes": 197,
+      "sha256": "f5c3cba155cfb3c24715435e67b016a2d31aa71e39e62932c40972efde27ac85"
+    },
+    {
+      "path": "experiment.py",
+      "exists": true,
+      "bytes": 1278,
+      "sha256": "eb5b0eb400c988979df8a3b1ce40e3bc47b3bf97c90bb900230c4a8d2c40bc84"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_sha256": "270983fca0b6dc77a8143d7df3f9cf4dc87e753802ad579672c9d1831431c396",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "ended_utc": "2026-10-23T12:32:00.741758+00:00",
+  "outputs": [
+    {
+      "path": "outputs/success.json",
+      "exists": true,
+      "bytes": 770,
+      "sha256": "15388d0b825c1cfc3f036290426543c9269e085c104789306a87213ec7d4d1cc"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "test_only": true,
+  "session": "SYNTHETIC-E2E-20261023-02",
+  "report": "04_ANALYSIS_LOGS/synthetic_tests/SYNTHETIC-E2E-20261023-02/project/04_ANALYSIS_LOGS/reports/20261023T124056Z_b9997ac414204eb69ee1ded0abcde19f",
+  "checks": {
+    "Unmodified copies of current workflow scripts": "PASS",
+    "Success audit has exit 0 and matching input/output fingerprints": "PASS",
+    "Intentional failure has exit 7 and absent output": "PASS",
+    "Prior handover exact bytes and unknown context preserved": "PASS",
+    "Prior synthetic report and decision preserved": "PASS",
+    "Prior real documentation, reports, decisions, handover and scripts unchanged": "PASS",
+    "Internal history includes alternatives, rationale, failure and next steps": "PASS",
+    "Overview explains what happened, failure reason and next steps": "PASS",
+    "Client draft excludes provisional decision and synthetic classification findings": "PASS",
+    "Client draft explicitly labels its execution count as synthetic TEST ONLY": "PASS",
+    "Generated overview methodology and validation references resolve within report": "PASS",
+    "Experiment audit records have structured session and synthetic markers": "PASS"
+  },
+  "limitations": [
+    "Real project register was empty; nonempty preservation checked with a rejected synthetic sentinel.",
+    "No real CERF data, commits, pushes, publication, hosted-session or remote persistence checks. Fresh GitHub clone attempted separately; see portability evidence."
+  ],
+  "supplemental_checks": {
+    "pre_change_history_preservation": "PASS: 73 files unchanged",
+    "legacy_and_mixed_records": "PASS",
+    "fresh_local_checkout_with_overlay": "PASS",
+    "fresh_GitHub_checkout": "BLOCKED: configured proxy unreachable",
+    "updated_GitHub_version_retrieval": "NOT VERIFIED: no commit or push authorized"
+  }
+}

@@ -6,3 +6,5 @@ See [AGENTS.md](AGENTS.md) for operating instructions and [ENVIRONMENT.md](ENVIR
 for the versioned session workflow. Research context is owner-provided; scoring
 methods, source links and validation remain pending. Documentation changes await
 review and do not authorise grading, publication, commit or push.
+
+See [AUDIT_WORKFLOW.md](AUDIT_WORKFLOW.md) for session metadata, synthetic separation, portable report snapshots and verification.

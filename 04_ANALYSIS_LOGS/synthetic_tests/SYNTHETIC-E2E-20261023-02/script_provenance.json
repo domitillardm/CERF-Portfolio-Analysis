@@ -1,0 +1,30 @@
+{
+  "setup_project.py": {
+    "source": "43b79c07fe1a9ba02358e8ba45bd333b9d034c15247f80587cfaca0f192b059a",
+    "copy": "43b79c07fe1a9ba02358e8ba45bd333b9d034c15247f80587cfaca0f192b059a"
+  },
+  "finish_session.py": {
+    "source": "39a99ce7d1218f82d51d953672ef880e4ab6e585af405cd1438aed4f4b8cbb9b",
+    "copy": "39a99ce7d1218f82d51d953672ef880e4ab6e585af405cd1438aed4f4b8cbb9b"
+  },
+  "refresh_status.py": {
+    "source": "1962ccb4ad87fe39234e0b3af1bee324a4d0162b19b47885ef6c35ae952a20e7",
+    "copy": "1962ccb4ad87fe39234e0b3af1bee324a4d0162b19b47885ef6c35ae952a20e7"
+  },
+  "build_appendix.py": {
+    "source": "1666b0d4196ddebf249069fbd984ae86c8a94fb40781c922f287c97a11fdd03b",
+    "copy": "1666b0d4196ddebf249069fbd984ae86c8a94fb40781c922f287c97a11fdd03b"
+  },
+  "audit_run.py": {
+    "source": "ebb8620b8a9b68ce14c68bd6f9230a9de0176fc76ab9c561f36d3200ca9a856d",
+    "copy": "ebb8620b8a9b68ce14c68bd6f9230a9de0176fc76ab9c561f36d3200ca9a856d"
+  },
+  "audit_metadata.py": {
+    "source": "2ae0728481d9ef1b67835d9dc91fcf42bbf003f661ec1dee5ffe5a9a14ce258c",
+    "copy": "2ae0728481d9ef1b67835d9dc91fcf42bbf003f661ec1dee5ffe5a9a14ce258c"
+  },
+  "session_log.py": {
+    "source": "d350939ada0c76e17d68c2771ae49df899a489091241d68054183631da758e0a",
+    "copy": "d350939ada0c76e17d68c2771ae49df899a489091241d68054183631da758e0a"
+  }
+}
