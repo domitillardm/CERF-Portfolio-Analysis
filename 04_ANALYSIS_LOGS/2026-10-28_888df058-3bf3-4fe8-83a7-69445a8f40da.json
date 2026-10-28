@@ -1,0 +1,32 @@
+{
+  "run_id": "888df058-3bf3-4fe8-83a7-69445a8f40da",
+  "task": "Complete single-workbook layout and verify each review hyperlink against actual question rows, alongside exact source values and SQL summaries",
+  "owner": "Codex",
+  "rules_version": "unchanged-v0.2-F1-consolidation-only",
+  "started_utc": "2026-10-28T13:18:06.299679+00:00",
+  "command": [
+    "python3",
+    "/workspace/cerf-private/supervisor-consolidation-20261028-v1/build_validate.py"
+  ],
+  "inputs": [
+    {
+      "path": "/workspace/cerf-private/post-freeze-C-comparison-20261028-v1/delivery_manifest.json",
+      "exists": true,
+      "bytes": 1576,
+      "sha256": "04cd68a0b735d84d0be4e6979ade4ff67368ec73011cf2f58f47fda530e84d58"
+    }
+  ],
+  "status": "failed",
+  "exit_code": 1,
+  "stdout_sha256": "4bd6e4896b3ee40ab7b1d84cfbae552e548eff72de825f6f006142cbaecacb6f",
+  "stderr_sha256": "cfddb65f54c0208f7aa7851b13edf90599de636db44d7d31277b9dd13cb8f30f",
+  "ended_utc": "2026-10-28T13:18:08.999786+00:00",
+  "outputs": [
+    {
+      "path": "/workspace/cerf-private/supervisor-consolidation-20261028-v1/manifest.json",
+      "exists": true,
+      "bytes": 4581,
+      "sha256": "a0f77dc510dfe927458aed53246b752dd654d90ab2b219992bb23ce6dd2daf47"
+    }
+  ]
+}

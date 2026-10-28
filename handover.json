@@ -1,14 +1,14 @@
 {
   "purpose": "Support the CERF End-Term Evaluation with portfolio breadth across tracks: reported activities/results, possible pathways, evidence quality, recurring mechanisms and provisional findings/hypotheses; context supplied by project owner.",
-  "phase": "Provisional portfolio preserved; implementation-independence audit complete and documentation consolidated. No numerical score or membership changes.",
+  "phase": "One five-sheet supervisor workbook prepared from immutable consolidated/frozen inputs; current results, competing C assessments and existing limitations kept separate.",
   "authoritative_dataset": "User-supplied separate working copy Second assessment.xlsx frozen by audit SHA-256; no embedded version. Original unchanged. Working source and detailed outputs outside Git; anonymisation/provenance not independently validated.",
   "approved_rules": "Owner-selected Inception-aligned v0.2 basis and operational MET-01\u201305 choices; additional F1/workflow conventions and effective AI scores remain provisional. No blanket formal human validation.",
   "validated_output": "Technical preservation/calculation/Excel checks passed for delivered artifacts; these do not prove outcome truth, scoring independence or formal validity.",
   "owner": "Project owner supplied context and instructions in this chat; named contact, designated human reviewers and methodological approval authority NOT YET CONFIRMED.",
-  "next_action": "Use documented shared/incremental-workflow caveat. Review proposed blinded non-singleton comparison separately if independent method testing is required; no rescoring now. Publish only selected privacy-reviewed documentation branch.",
-  "blocker": "Independent B/C judgement cannot be demonstrated; full prompt/model-call provenance and designated formal validation absent. Exact exclusions and confidential artifacts remain outside Git. Case-study scale/crosswalk and release constraints unchanged.",
-  "latest_session": "INDEPENDENCE-AUDIT-20261028-01",
-  "latest_report": "04_ANALYSIS_LOGS/reports/20261028T111535Z_eb6534da2fc44d3697a2a56c1e50cca1",
+  "next_action": "Use the single workbook for provisional supervisor discussion. Blank reviewer notes do not update grades. Prioritise the four comparison questions while retaining existing evidence/mapping limitations; any score adoption remains separate and versioned.",
+  "blocker": "No delivery blocker. Formal human validation, unresolved mapping/stage facts, declared rather than externally certified freeze/access history, and independent case-study scale/crosswalk constraints remain explicit. Native Excel desktop testing unavailable.",
+  "latest_session": "SUPERVISOR-CONSOLIDATION-20261028-01",
+  "latest_report": "04_ANALYSIS_LOGS/reports/20261028T132654Z_911f180aae1e4d9d92dfc6aafd6edd52",
   "context_source": {
     "type": "project-owner instructions in current chat",
     "date": "2026-10-23",
@@ -33,9 +33,9 @@
     "Controlled pilot completed with input preservation, whitelisted monitoring, sequential A locks, contextual B, monitoring-based C, D arithmetic and separate structural/engine QA. Scores are unvalidated proposals; details outside Git."
   ],
   "current_priorities": [
-    "Use current descriptive outputs only with shared-process and coverage caveats.",
-    "Review minimum blinded non-singleton protocol separately if independent method testing is required; do not rescore now.",
-    "Retain source/actor limitations and scale/crosswalk blockers for human validation."
+    "Use the single five-sheet workbook for supervisor review.",
+    "Record targeted human decisions as notes only; no automatic source replacement or broad new scoring.",
+    "Retain case-study scale/crosswalk and formal validation/release as separate readiness conditions."
   ],
   "planned_stages": [
     "Locate authoritative sources and approvals",
@@ -55,9 +55,9 @@
     "Designated human validation/approval authority and final release."
   ],
   "current_session_constraints": [
-    "Final existing-evidence consolidation is complete; no further broad AI reassessment cycle.",
-    "Original sources, owner selections and six-case outcomes retained.",
-    "No formal human approval fabricated; no case-study comparison, commit, push or publication."
+    "Post-freeze comparison only; no new assessment or authoritative score update.",
+    "No automatic preference for original or blinded scores.",
+    "No main merge, external case-study comparison or client release."
   ],
   "persistence": {
     "documentation_branch": "docs/portfolio-methodology-audit-20261028",
@@ -65,7 +65,8 @@
     "status": "Enclosing Git commit/remote branch identifies this documentation version; remote publication verified separately. No confidential data committed.",
     "private_artifacts_available_in_this_workspace": true,
     "Git_checkout_restores_private_data": false,
-    "SharePoint_upload_verified": false
+    "SharePoint_upload_verified": false,
+    "previous_documentation_commit": "9c6dda99517d4fd654c286423748d4dc1e7a5d53"
   },
   "documentation_history": "04_ANALYSIS_LOGS/documentation_history/DOCUMENTATION-20261023-01",
   "handbook": "01_METHODOLOGY/PROJECT_EXPLAINED.md",
@@ -216,7 +217,7 @@
     "no_rescoring_or_case_study_comparison": true,
     "returned_review_status": "Owner return received and validated: choices entered but all45 approvals Draft/Pending; missing formal completion. No decisions applied."
   },
-  "active_review_interface": "/workspace/cerf-private/first-analytical-review-20261028-v1/CERF first analytical review - provisional scores v1.xlsx",
+  "active_review_interface": "/workspace/cerf-private/supervisor-consolidation-20261028-v1/CERF consolidated supervisor workbook v1.xlsx",
   "completed_review_validation": {
     "session": "REVIEW-QA-20261027-01",
     "private_directory": "/workspace/cerf-private/completed-review-validation-20261027",
@@ -512,5 +513,115 @@
   },
   "current_operationalisation": "01_METHODOLOGY/OPERATIONALISATION_CURRENT.md",
   "scoring_history": "09_INTERNAL_DEEP_DIVE/scoring_and_classification_history_20261028.md",
-  "client_appendix": "08_CLIENT_APPENDIX/methodology_DRAFT.md"
+  "client_appendix": "08_CLIENT_APPENDIX/methodology_DRAFT.md",
+  "blinded_C_materials_preparation": {
+    "session": "BLINDED-C-PREPARATION-20261028-01",
+    "directory": "/workspace/cerf-private/blinded-C-preparation-20261028-v1",
+    "assessor_archive": "/workspace/exports/cerf-blinded-C-materials-20261028/CERF_C_Blinded_Assessment_Materials_v1.zip",
+    "assessor_archive_sha256": "a2f3ab0c4452b89db1ba4badb825d57c93cea7e14c03cc42bfa5324fe9ead6fa",
+    "assessor_folder": "/workspace/cerf-private/blinded-C-preparation-20261028-v1/assessor",
+    "restricted_manifest": "/workspace/cerf-private/blinded-C-preparation-20261028-v1/restricted/comparison_mapping_manifest.json",
+    "source_workbook": "/workspace/cerf-private/final-consolidated-provisional-20261027-v1/CERF FINAL CONSOLIDATED PROVISIONAL SCORING v1.xlsx",
+    "source_sha256": "a3622b83167141f2858dfed50897a2d21c283ab47c3bfe39cd336b3138f95d83",
+    "selected_defined_multi_tracks": 34,
+    "included_member_activities": 176,
+    "selection_based_on_scores": false,
+    "codebook_changed": false,
+    "existing_scores_or_rationales_in_assessor_materials": false,
+    "checks_passed": 51,
+    "original_monitoring_fields_checked": 1760,
+    "blank_assessment_cells": 476,
+    "new_scores_assigned": 0,
+    "score_comparison_conducted": false,
+    "source_unchanged": true,
+    "status": "Materials ready for separately authorised fresh-session assessment; prior-exposure declaration still required.",
+    "method_protocol": "01_METHODOLOGY/BLINDED_C_MATERIALS_PROTOCOL_v1.md",
+    "validation_note": "05_VALIDATION/blinded_C_preparation_20261028.md"
+  },
+  "post_freeze_C_comparison": {
+    "session": "POST-FREEZE-C-COMPARISON-20261028-01",
+    "directory": "/workspace/cerf-private/post-freeze-C-comparison-20261028-v1",
+    "workbook": "/workspace/cerf-private/post-freeze-C-comparison-20261028-v1/CERF post-freeze holistic C comparison v1.xlsx",
+    "download": "/workspace/exports/cerf-post-freeze-C-comparison-20261028/CERF_Post_Freeze_C_Comparison_v1.xlsx",
+    "output_sha256": "927fa48ec9d789a3e3de81572861e3920288378f88959678f7a1a208ba01a140",
+    "frozen_workbook": "/workspace/attachments/47f3cb45-0afe-4116-b9f3-a4631e8ec96a/CERF_C_Blinded_Assessment_2026-10-28_FROZEN_v1.xlsx",
+    "frozen_bundle": "/workspace/attachments/729b088a-28e1-4f83-be5c-33f8af87cf45/CERF_C_Blinded_Assessment_2026-10-28_FROZEN_v1.zip",
+    "assessment_completion_utc_declared": "2026-10-28T12:27:16Z",
+    "freeze_before_reveal_externally_certified": false,
+    "output_hashes_and_input_identity_verified": true,
+    "cohort_tracks": 34,
+    "cohort_activities": 176,
+    "numeric_blinded_C": 33,
+    "unresolved_blinded_C": 1,
+    "code6_blinded_C": 0,
+    "original_C_agreement": {
+      "n": 33,
+      "agree": 30,
+      "disagree": 3
+    },
+    "D1_agreement": {
+      "n": 28,
+      "agree": 25,
+      "disagree": 3
+    },
+    "D2_agreement": {
+      "n": 29,
+      "agree": 26,
+      "disagree": 3
+    },
+    "common_comparison_n": 28,
+    "targeted_review_cases": 4,
+    "confirmed_numerical_errors_by_comparison": 0,
+    "authoritative_score_changes": 0,
+    "frozen_score_changes": 0,
+    "membership_changes": 0,
+    "comparison_checks_passed": 37,
+    "input_integrity_checks_passed": 26,
+    "native_Microsoft_Excel_test": false,
+    "report": "05_VALIDATION/post_freeze_C_comparison_20261028.md",
+    "main_merged": false,
+    "documentation_publication": "Local only for this session"
+  },
+  "supervisor_consolidation": {
+    "session": "SUPERVISOR-CONSOLIDATION-20261028-01",
+    "directory": "/workspace/cerf-private/supervisor-consolidation-20261028-v1",
+    "workbook": "/workspace/cerf-private/supervisor-consolidation-20261028-v1/CERF consolidated supervisor workbook v1.xlsx",
+    "sha256": "87f7999cf457032ab3818fda371c39a9955880fb7266fe36ac7978e012bb25d5",
+    "authoritative_source": "/workspace/cerf-private/final-consolidated-provisional-20261027-v1/CERF FINAL CONSOLIDATED PROVISIONAL SCORING v1.xlsx",
+    "frozen_assessment": "/workspace/attachments/47f3cb45-0afe-4116-b9f3-a4631e8ec96a/CERF_C_Blinded_Assessment_2026-10-28_FROZEN_v1.xlsx",
+    "sheets": [
+      "Overview",
+      "Activity scores",
+      "Country-track comparison",
+      "Review questions",
+      "Descriptives"
+    ],
+    "activities": 249,
+    "defined_tracks": 93,
+    "holding_groups": 7,
+    "unmapped_activities": 14,
+    "singleton_tracks": 59,
+    "multi_tracks": 34,
+    "blinded_numerical_scores": 33,
+    "blinded_unresolved": 1,
+    "review_questions": {
+      "primary_comparison": 4,
+      "existing_source_cases": 17,
+      "earlier_diagnostics": 2,
+      "portfolio_conditions": 3,
+      "total_rows": 26
+    },
+    "reviewer_decision_fields_blank": true,
+    "reviewer_notes_automatically_update_scores": false,
+    "source_score_changes": 0,
+    "frozen_score_changes": 0,
+    "membership_changes": 0,
+    "validation_note": "05_VALIDATION/supervisor_consolidation_20261028.md",
+    "documentation_branch": "docs/portfolio-methodology-audit-20261028",
+    "main_merged": false,
+    "download": "/workspace/exports/cerf-supervisor-consolidated-20261028/CERF_Consolidated_Supervisor_Workbook_v1.xlsx",
+    "checks_passed": 45,
+    "independent_roundtrip_cells": 9254,
+    "native_Microsoft_Excel_test": false
+  }
 }

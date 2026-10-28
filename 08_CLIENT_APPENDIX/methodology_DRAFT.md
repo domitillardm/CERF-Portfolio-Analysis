@@ -35,3 +35,15 @@ Technical checks reconcile all activity identities, source values, calculations,
 Usable numerical outputs include code 6:235 A and 224 B of 249 activities;88 C,83 D1 and 84 D2 of 93 tracks. Valid ordinal1–4 denominators are233,222,87,82 and 83 respectively. Remaining nonnumeric statuses are preserved. Fourteen mappings and 3 factual-stage gaps remain unresolved; two later diagnostic questions are separate and do not automatically invalidate scores.
 
 Country summaries count tracks once and display valid denominators and status coverage. Means of ordinal1–4 codes are exploratory descriptions, not precise effectiveness measures, success rates or causal estimates. Different missingness can change means without paired score changes. Independent case-study comparison requires confirmed scale/missing-code equivalence and exact unit matching; it has not been conducted. A separately blinded non-singleton assessment would be needed before claiming independent method agreement. Human methodological/factual/confidentiality review and explicit release remain required.
+
+
+## Subsequent frozen reassessment — provisional addition
+
+After the original implementation audit, the owner supplied a separately frozen C assessment of34 multi-activity tracks using the masked evidence package.33 numerical judgements and1 unresolved disposition were checked against the frozen hashes and original membership. Agreement with original C is30/33 (90.91%); against D1 it is25/28 (89.29%) and against D2,26/29 (89.66%). On the same28-track subset all three rates are25/28. Three numerical disagreements are lower in the fresh assessment, with one two-level and two one-level gaps; the unresolved case is not a numerical decrease.
+
+These findings show substantial endpoint stability and specific interpretive sensitivities, not independent outcome verification, a confirmed error rate or proof of systematic generosity/conservatism. Freeze-before-reveal and lack of prior access are recorded by the assessor/user and supported by masked-input matching, but no externally trusted access/timestamp record is supplied. Neither assessment is automatically preferred. Four focused human adjudications are recommended before adopting final ratings. No authoritative/frozen scores or methodology changed; no broad rescoring is initiated. This appendix remains subject to human review and is not approved for client release.
+
+
+## Supervisor presentation layer — provisional
+
+A separate five-sheet review workbook consolidates the existing activity results, unique country-track comparisons, frozen reassessment and exploratory distributions without replacing any score. The26 review rows distinguish four new comparison questions from17 existing source cases,2 earlier diagnostics and3 readiness conditions; they are not26 confirmed errors. Human notes remain blank and do not automatically update the dataset. Evidence is monitoring only; status/coverage and ordinal limitations remain explicit. This presentation does not constitute final human validation or client-release approval.

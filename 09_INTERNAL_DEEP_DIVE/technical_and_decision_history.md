@@ -19,3 +19,13 @@ The session log is agent-reported, not a complete prompt/model transcript. Wrapp
 ## Corrections and publication
 
 Earlier XML namespace/property defects and literal escape-marker encoding were repaired with preserved prior files and fresh-library exports. Independent SQL/engine checks are technical QA, not rescoring or outcome verification. Current documentation replaces stale setup status and corrects overstrong independence language while retaining original decision rows and histories. Publish only explicitly selected privacy-reviewed text; never `git add .`. User authorised this documentation commit/push, not client release or scoring changes. Verify remote SHA and fresh checkout before claiming GitHub persistence; SharePoint remains separate and unverified.
+
+
+## New post-freeze comparison evidence — 28 October 2026
+
+The owner has supplied a separately frozen, score-masked C assessment for34 multi-activity tracks;33 numerical results and1 unresolved disposition are verified against the prepared inputs. The [post-freeze report](../05_VALIDATION/post_freeze_C_comparison_20261028.md) records30/33 agreement with original C,25/28 with D1 and26/29 with D2. Three numerical disagreements are downward; one status remains unresolved. Common-denominator rates are identical25/28. File/input integrity is verified; input isolation and freeze-before-reveal are documented assessor/user declarations without an independently signed access chronology. Neither output is a gold standard. No original or frozen score has changed. This is new evidence about an additional assessment, not a retraction of findings about original construction. Targeted four-case human adjudication is recommended before final classifications/bias claims; no broad rescoring is initiated.
+
+
+## Current supervisor interface — 28 October 2026
+
+A [single five-sheet workbook](../05_VALIDATION/supervisor_consolidation_20261028.md) now brings activity A/B, unique-track original C/D1/D2 and separate frozen C together for review. It changes no classifications, membership or evidence rules. All249 activities,93 defined units and7 clearly separate holding groups are reconciled. The four primary post-freeze questions are distinct from17 old source limitations,2 earlier diagnostics and3 readiness conditions. Blank reviewer notes have no automatic scoring effect. Descriptives count tracks once and expose valid/result-status denominators; they are not effectiveness rankings. Source/frozen files and detailed histories remain external to Git. This is the current review entry point, not a new authoritative scoring version or human approval.

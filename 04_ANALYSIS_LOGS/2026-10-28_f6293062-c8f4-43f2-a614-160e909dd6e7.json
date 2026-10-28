@@ -1,0 +1,32 @@
+{
+  "run_id": "f6293062-c8f4-43f2-a614-160e909dd6e7",
+  "task": "Final five-sheet source reconciliation and semantic navigation checks including valid sheet-home versus question links",
+  "owner": "Codex",
+  "rules_version": "unchanged-v0.2-F1-consolidation-only",
+  "started_utc": "2026-10-28T13:20:48.522021+00:00",
+  "command": [
+    "python3",
+    "/workspace/cerf-private/supervisor-consolidation-20261028-v1/build_validate.py"
+  ],
+  "inputs": [
+    {
+      "path": "/workspace/cerf-private/post-freeze-C-comparison-20261028-v1/delivery_manifest.json",
+      "exists": true,
+      "bytes": 1576,
+      "sha256": "04cd68a0b735d84d0be4e6979ade4ff67368ec73011cf2f58f47fda530e84d58"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_sha256": "f382bdff46b51eccdd9df384b5d8bd83aae652770648d8d9c32cce327b6545de",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "ended_utc": "2026-10-28T13:20:52.967109+00:00",
+  "outputs": [
+    {
+      "path": "/workspace/cerf-private/supervisor-consolidation-20261028-v1/manifest.json",
+      "exists": true,
+      "bytes": 4579,
+      "sha256": "c5b4ff2fb2666f9024c7c685ea22c50d3b1cfc4f612ae920e1db57ebec6db43c"
+    }
+  ]
+}

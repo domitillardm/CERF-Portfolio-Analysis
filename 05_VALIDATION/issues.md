@@ -4,7 +4,7 @@ Earlier issue lists are preserved in documentation history. A documented source 
 
 | Issue | Current status / implication | Next action |
 | --- | --- | --- |
-| I01 Implementation independence | Proven B A-default and original singleton C=A; no blinded multi-track C or full prompt archive demonstrated. Agreement is not independent validation. | Use audit wording; propose a separate blinded non-singleton comparison only if independent method testing is required. No score changes now. |
+| I01 Implementation independence | Historical B A-default and original singleton C=A remain documented. A fresh masked C assessment and post-freeze comparison now exist; input/output integrity is verified, while prior-access chronology is declared rather than externally certified. Original A/B independence is not retroactively established. | Use current post-freeze findings and four targeted questions. Do not repeat the completed C exercise or assume a new broad rescoring requirement. No automatic source-score replacement. |
 | I02 Membership |14 activities lack accepted exact tracks;7 holding groups are not defined programmes. | Retain explicit unresolved status; do not theme-map or silently include in track denominators. |
 | I03 Factual stage |3 source cases have implementation/curriculum-stage gaps; no unsupported achievement or forced6. | Retain existing limits; no repeated owner-choice exercise. |
 | I04 Targeted diagnostics |2 actor/scope questions in a29-activity non-random review, not confirmed scoring errors or a portfolio bias estimate. | Focus later human validation; scores unchanged. |
@@ -15,3 +15,8 @@ Earlier issue lists are preserved in documentation history. A documented source 
 | I09 Repository reproducibility |Documentation and safe aggregate history are published; confidential data/scripts remain outside Git. | A fresh checkout validates documentation continuity, not confidential scoring reproduction or colleague data access. |
 
 The dataset is usable for provisional descriptive analysis with explicit scope/status denominators. The method-agreement figures are descriptive outputs of a partly dependent process. Formal external reporting, causal claims and independent case-study equivalence remain unvalidated. Historical broad reassessment counts are superseded by evidence-specific screening; do not resurrect them as live work queues.
+
+
+## Post-freeze update — separate from earlier source issues
+
+The [new comparison](post_freeze_C_comparison_20261028.md) is ready for supervisor discussion. Three numerical interpretation disagreements and one unresolved frozen C disposition require focused human judgement before final-score endorsement. They do not replace the authoritative Outstanding list or automatically invalidate earlier source scores. Input/output integrity is verified; no external certification of prior-access history is supplied. Original A/B dependence and source/case-study/release limitations remain. No broad new reassessment or main merge is performed.

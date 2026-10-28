@@ -1,0 +1,32 @@
+{
+  "run_id": "3652b5aa-88cf-4534-9e74-ca1e6039cb21",
+  "task": "Build and reconcile one five-sheet supervisor workbook using unchanged source and frozen results, deduplicated questions and unique-track descriptives",
+  "owner": "Codex",
+  "rules_version": "unchanged-v0.2-F1-consolidation-only",
+  "started_utc": "2026-10-28T13:14:49.690919+00:00",
+  "command": [
+    "python3",
+    "/workspace/cerf-private/supervisor-consolidation-20261028-v1/build_validate.py"
+  ],
+  "inputs": [
+    {
+      "path": "/workspace/cerf-private/post-freeze-C-comparison-20261028-v1/delivery_manifest.json",
+      "exists": true,
+      "bytes": 1576,
+      "sha256": "04cd68a0b735d84d0be4e6979ade4ff67368ec73011cf2f58f47fda530e84d58"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_sha256": "0acfba4ac5ec9c8cc2bbc0423b0cf5c15d4adc8c449e89eda4dde4e5660fda25",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "ended_utc": "2026-10-28T13:14:52.517256+00:00",
+  "outputs": [
+    {
+      "path": "/workspace/cerf-private/supervisor-consolidation-20261028-v1/manifest.json",
+      "exists": true,
+      "bytes": 4507,
+      "sha256": "3177dcf97ce52e85c356ba039a7a61dbab4e3893f1701d28e2839209739720d4"
+    }
+  ]
+}
