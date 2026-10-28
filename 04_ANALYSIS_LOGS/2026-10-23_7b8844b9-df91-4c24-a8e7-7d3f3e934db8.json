@@ -1,0 +1,42 @@
+{
+  "run_id": "7b8844b9-df91-4c24-a8e7-7d3f3e934db8",
+  "task": "materialise-reviewed-full-portfolio-proposals",
+  "owner": "Codex",
+  "rules_version": "v0.2-F1",
+  "started_utc": "2026-10-23T16:49:48.676473+00:00",
+  "command": [
+    "python3",
+    "/workspace/cerf-private/full-portfolio-v1/build_scores.py"
+  ],
+  "inputs": [
+    {
+      "path": "/workspace/cerf-private/full-portfolio-v1/A_annotations.tsv",
+      "exists": true,
+      "bytes": 47388,
+      "sha256": "cbf2afb5698c70e4b34e64964d3101dd432c4b20e8fef954a89ff3676eb8c27a"
+    },
+    {
+      "path": "/workspace/cerf-private/full-portfolio-v1/context_and_holistic.tsv",
+      "exists": true,
+      "bytes": 10489,
+      "sha256": "0b678bc65343c121cd4eb01282bc702d08fa6f252c5e48693c59da1ce99d12ba"
+    },
+    {
+      "path": "/workspace/cerf-private/full-portfolio-v1/B_overrides.tsv",
+      "exists": true,
+      "bytes": 1696,
+      "sha256": "708503ab7bd06e15de035ebb836b879a05d728e1af8d11a27b23d129ede88c1d"
+    }
+  ],
+  "status": "failed",
+  "exit_code": 1,
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "cfa74118cda2d14ac8135921c1cb35d7e3ac8031f0e7d7943e87898d83cc12f2",
+  "ended_utc": "2026-10-23T16:49:48.709923+00:00",
+  "outputs": [
+    {
+      "path": "/workspace/cerf-private/full-portfolio-v1/score_register.json",
+      "exists": false
+    }
+  ]
+}

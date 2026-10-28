@@ -1,0 +1,25 @@
+{
+  "run_id": "62531dd5-b610-4445-a8f8-e6d0abed8f98",
+  "task": "Validate current documentation links, source boundaries, aggregate counts, approval states and publication privacy patterns",
+  "owner": "Codex",
+  "rules_version": "documentation-only",
+  "started_utc": "2026-10-28T11:13:48.860990+00:00",
+  "command": [
+    "python3",
+    "scripts/validate_documentation.py"
+  ],
+  "inputs": [
+    {
+      "path": "handover.json",
+      "exists": true,
+      "bytes": 30196,
+      "sha256": "ca9bdceb23cf43cc6b06ba0ba2eebb3fa88c6c88fab1b967242ad0f38e3c7538"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_sha256": "0a8f8a62b4576fc83ca7d03e4d3fc0b4e0fdc625f9a02aa418a1a7bc2dc4b7f5",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "ended_utc": "2026-10-28T11:13:48.909716+00:00",
+  "outputs": []
+}

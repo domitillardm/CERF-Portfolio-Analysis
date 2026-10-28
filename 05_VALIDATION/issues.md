@@ -1,22 +1,17 @@
-# Validation issues
+# Current validation issues —28 October 2026
 
-Updated 2026-10-23. No issue below is resolved merely by documenting owner context.
+Earlier issue lists are preserved in documentation history. A documented source gap or approved execution step does not establish formal methodological approval.
 
-| ID | Gap / status | Next evidence or action |
+| Issue | Current status / implication | Next action |
 | --- | --- | --- |
-| V01 | Preparation/anonymisation reported complete externally; not independently checked | Link dataset/version, provenance, preparation log, anonymisation and validation records securely |
-| V02 | Existing AI scores, prompts and rules referenced but not linked | Locate baseline versions; preserve original scores; review prompts/rules |
-| V03 | Revised definitions not developed; no approved scoring rules supplied | Obtain exact Inception Report scoring table and prepare a separate revision for human approval |
-| V04 | Country-track implementation and chronology unresolved | Confirm track/country lists, identifiers, mappings, dates and missing/multi-track handling |
-| V05 | Highest human-checked activity score proposal unapproved | Obtain human decision on CERF-M001 and its operational questions; do not apply |
-| V06 | Classification confidence not established | Name reviewers and approve review sampling, evidence-strength conventions, confidence criteria and adjudication before independent case-study comparison |
-| V07 | No substantive analysis code, portfolio run record or validated output supplied here | Locate existing work or implement an approved pilot later; no grading in this session |
-| V08 | Scope details and approval authority missing | Confirm evaluation period, country/track coverage, inclusion/exclusion criteria, owner contact and designated reviewers |
-| V09 | Research reproduction blocked | Freeze and link data/code/rules/score versions, commands and QA evidence before claiming reproducibility |
-| V10 | Client appendix remains an unapproved scaffold | Populate only from reviewed methodology and actual QA/results; human release review required |
-| V11 | Persistence statements in older reports are stale | Setup commit b51a58eea6f9a870f2d6ce4ead5692939b8c879d exists locally; GitHub verification is supplied by owner; remote/fresh-clone retrieval not rechecked here |
+| I01 Implementation independence | Proven B A-default and original singleton C=A; no blinded multi-track C or full prompt archive demonstrated. Agreement is not independent validation. | Use audit wording; propose a separate blinded non-singleton comparison only if independent method testing is required. No score changes now. |
+| I02 Membership |14 activities lack accepted exact tracks;7 holding groups are not defined programmes. | Retain explicit unresolved status; do not theme-map or silently include in track denominators. |
+| I03 Factual stage |3 source cases have implementation/curriculum-stage gaps; no unsupported achievement or forced6. | Retain existing limits; no repeated owner-choice exercise. |
+| I04 Targeted diagnostics |2 actor/scope questions in a29-activity non-random review, not confirmed scoring errors or a portfolio bias estimate. | Focus later human validation; scores unchanged. |
+| I05 Formal review |Owner selections and operational instructions exist; designated blanket human score validation, credentials/authority and release are not supplied. | Keep provisional; no fabricated approval/reviewer identity. |
+| I06 Case-study comparison |Exact scale/missing-code equivalence and unit crosswalk not confirmed. | No comparison until scope and conventions agreed, with classification confidence documented. |
+| I07 Source/method provenance |Visible Appendix B excerpt available; full report citation, complete prompt/model-call archive and independently checked anonymisation history remain incomplete. | Preserve honest source boundaries; no claim of full-report or independent outcome validation. |
+| I08 Excel testing |Fresh-library exports and independent readers/engine checks passed; native Microsoft Excel desktop unavailable. | Do not claim native Excel certification. Keep old repair versions for audit. |
+| I09 Repository reproducibility |Documentation and safe aggregate history are published; confidential data/scripts remain outside Git. | A fresh checkout validates documentation continuity, not confidential scoring reproduction or colleague data access. |
 
-See `handover_test_20261023.md` for the earlier read-only test and
-`documentation_review_20261023.md` for this revision's checks. Earlier synthetic
-test claims in `environment_setup.md` are historical and do not validate CERF
-classifications. SharePoint publication and permissions remain unverified.
+The dataset is usable for provisional descriptive analysis with explicit scope/status denominators. The method-agreement figures are descriptive outputs of a partly dependent process. Formal external reporting, causal claims and independent case-study equivalence remain unvalidated. Historical broad reassessment counts are superseded by evidence-specific screening; do not resurrect them as live work queues.

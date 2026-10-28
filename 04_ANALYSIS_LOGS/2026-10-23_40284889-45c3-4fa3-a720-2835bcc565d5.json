@@ -1,0 +1,56 @@
+{
+  "run_id": "40284889-45c3-4fa3-a720-2835bcc565d5",
+  "task": "pilot-contextual-B-and-holistic-C-proposals",
+  "owner": "Codex",
+  "rules_version": "SCORING_CODEBOOK_DRAFT_v0.2-PILOT",
+  "started_utc": "2026-10-23T15:54:14.238486+00:00",
+  "command": [
+    "python3",
+    "/workspace/cerf-private/stage3-pilot-v1/build_context_scores.py"
+  ],
+  "inputs": [
+    {
+      "path": "/workspace/cerf-private/stage3-pilot-v1/A_freeze_manifest.json",
+      "exists": true,
+      "bytes": 1421,
+      "sha256": "c698a73be646a863ee1656ff0e43e880cb01d207f934c1e4316e04fd97b5c1de"
+    },
+    {
+      "path": "/workspace/cerf-private/stage3-pilot-v1/build_context_scores.py",
+      "exists": true,
+      "bytes": 15095,
+      "sha256": "76c46123ae3699dff5e586664998538210af6b618fec9cdd8c621bd75a4ab9ab"
+    },
+    {
+      "path": "/workspace/cerf-private/stage3-pilot-v1/pilot_protocol.txt",
+      "exists": true,
+      "bytes": 4534,
+      "sha256": "dadc8e9631d96df27727b763b5656dbbf3eba3ec68dfb8610a2e780711ec01ad"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_sha256": "6edf9dbf0d3d98cde31e5d836847d159899af9c9b6d032a263d5ef448033abee",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "ended_utc": "2026-10-23T15:54:14.268808+00:00",
+  "outputs": [
+    {
+      "path": "/workspace/cerf-private/stage3-pilot-v1/B_scores.locked.json",
+      "exists": true,
+      "bytes": 39329,
+      "sha256": "ad5656dd5a53f6e791b594fc96bd4a9f16641f5dd7589896f6f4d8bed4095b4b"
+    },
+    {
+      "path": "/workspace/cerf-private/stage3-pilot-v1/C_scores.locked.json",
+      "exists": true,
+      "bytes": 9677,
+      "sha256": "11c8126bac4b425245cb021cb87ba097059f71a5646167f15acd06ea1ff61bc8"
+    },
+    {
+      "path": "/workspace/cerf-private/stage3-pilot-v1/BC_freeze_manifest.json",
+      "exists": true,
+      "bytes": 191,
+      "sha256": "dd1f3b280408e599c5ad6c939c75fc71ca755c3a2df1cecb4687e2bd8625f14c"
+    }
+  ]
+}

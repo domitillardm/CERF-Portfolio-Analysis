@@ -1,0 +1,32 @@
+{
+  "run_id": "28b17440-fcbe-48d2-84bd-a3403f68ba76",
+  "task": "freeze-full-portfolio-standalone-proposals",
+  "owner": "Codex",
+  "rules_version": "v0.2-F1",
+  "started_utc": "2026-10-23T16:45:58.683156+00:00",
+  "command": [
+    "python3",
+    "/workspace/cerf-private/full-portfolio-v1/freeze_a.py"
+  ],
+  "inputs": [
+    {
+      "path": "/workspace/cerf-private/full-portfolio-v1/monitoring_only.json",
+      "exists": true,
+      "bytes": 556753,
+      "sha256": "7670f3ade2f70baab31634d8ff3e9bf89fb64ea3b8823a50224174de8dc13037"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_sha256": "e0ddc058d9e3c5a08583729e703d3af9fefc3ef8f3bb50e75b0e50ee812119d5",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "ended_utc": "2026-10-23T16:45:58.712860+00:00",
+  "outputs": [
+    {
+      "path": "/workspace/cerf-private/full-portfolio-v1/A_frozen.json",
+      "exists": true,
+      "bytes": 568,
+      "sha256": "643cb8270b34395b52b7e1e35f1f3076c99a90b7f8df71c991e718380b3da2c3"
+    }
+  ]
+}

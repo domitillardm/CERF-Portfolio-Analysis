@@ -1,0 +1,18 @@
+{
+  "run_id": "df31c7e6-dd4d-4dcd-8072-684ae49b12d8",
+  "task": "Run existing synthetic audit and handover environment checks in isolated temporary fixtures",
+  "owner": "Codex",
+  "rules_version": "synthetic-no-data",
+  "started_utc": "2026-10-28T11:13:49.005414+00:00",
+  "command": [
+    "python3",
+    "scripts/test_environment.py"
+  ],
+  "inputs": [],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_sha256": "1f41de7620c144935ce0fe4c4f596f774abf291f7ee5b17dcb1f50f5e311298a",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "ended_utc": "2026-10-28T11:13:50.138834+00:00",
+  "outputs": []
+}

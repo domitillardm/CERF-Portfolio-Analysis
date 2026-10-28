@@ -1,0 +1,69 @@
+{
+  "status": "Retrospective evidence catalogue; code/data not published",
+  "date": "2026-10-28",
+  "artifacts": [
+    {
+      "restricted_artifact": "full-portfolio-v1/build_scores.py",
+      "sha256": "8aea2be644370c4b22b084aab18fc07a5f1f0c6650f9eeb43951998c3c7c0403",
+      "in_Git": false
+    },
+    {
+      "restricted_artifact": "full-portfolio-v1/freeze_a.py",
+      "sha256": "10fca0584f0e21e88018c0180da5b22db708c3dbc74ae2e4bddcdf00bb0da6f7",
+      "in_Git": false
+    },
+    {
+      "restricted_artifact": "stage3-pilot-v1/build_context_scores.py",
+      "sha256": "76c46123ae3699dff5e586664998538210af6b618fec9cdd8c621bd75a4ab9ab",
+      "in_Git": false
+    },
+    {
+      "restricted_artifact": "stage3-pilot-v1/deliver.py",
+      "sha256": "9bd892d353e370709dc313134dfcd3c80724e119ab5c409941c58fc3c5bb8c7d",
+      "in_Git": false
+    },
+    {
+      "restricted_artifact": "final-consolidated-provisional-20261027-v1/consolidate.py",
+      "sha256": "aac88b2ea65fb6b93b2af196b32923ad7c87c0d26af3e3eb278af1289b292b20",
+      "in_Git": false
+    },
+    {
+      "restricted_artifact": "stage3-pilot-v1/pilot_protocol.txt",
+      "sha256": "dadc8e9631d96df27727b763b5656dbbf3eba3ec68dfb8610a2e780711ec01ad",
+      "in_Git": false
+    }
+  ],
+  "recorded_runs": [
+    {
+      "file": "04_ANALYSIS_LOGS/2026-10-23_40284889-45c3-4fa3-a720-2835bcc565d5.json",
+      "started_utc": "2026-10-23T15:54:14.238486+00:00",
+      "status": "completed",
+      "task": "pilot-contextual-B-and-holistic-C-proposals"
+    },
+    {
+      "file": "04_ANALYSIS_LOGS/2026-10-23_68834972-51dd-4fbf-a357-a1735987ff91.json",
+      "started_utc": "2026-10-23T15:58:21.352402+00:00",
+      "status": "completed",
+      "task": "pilot-D-maxima-comparisons-export-and-qa"
+    },
+    {
+      "file": "04_ANALYSIS_LOGS/2026-10-23_28b17440-fcbe-48d2-84bd-a3403f68ba76.json",
+      "started_utc": "2026-10-23T16:45:58.683156+00:00",
+      "status": "completed",
+      "task": "freeze-full-portfolio-standalone-proposals"
+    },
+    {
+      "file": "04_ANALYSIS_LOGS/2026-10-23_7b8844b9-df91-4c24-a8e7-7d3f3e934db8.json",
+      "started_utc": "2026-10-23T16:49:48.676473+00:00",
+      "status": "failed",
+      "task": "materialise-reviewed-full-portfolio-proposals"
+    },
+    {
+      "file": "04_ANALYSIS_LOGS/2026-10-23_458a4ee2-6cc7-47ec-b2fc-f59ba31871a5.json",
+      "started_utc": "2026-10-23T16:50:00.429208+00:00",
+      "status": "completed",
+      "task": "materialise-reviewed-full-portfolio-proposals-corrected"
+    }
+  ],
+  "hashes_confirm_identity_not_independence": true
+}
