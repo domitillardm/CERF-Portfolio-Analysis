@@ -1,22 +1,17 @@
-# Validation issues
+# Current validation and review issues
 
-Updated 2026-10-23. No issue below is resolved merely by documenting owner context.
+Updated 4 November 2026. Technical reconstruction and provisional scoring checks have passed; these do not resolve substantive judgement. Historical issue descriptions remain in Git history and the later methodology branch.
 
-| ID | Gap / status | Next evidence or action |
+| Priority | Issue | Required action |
 | --- | --- | --- |
-| V01 | Preparation/anonymisation reported complete externally; not independently checked | Link dataset/version, provenance, preparation log, anonymisation and validation records securely |
-| V02 | Existing AI scores, prompts and rules referenced but not linked | Locate baseline versions; preserve original scores; review prompts/rules |
-| V03 | Revised definitions not developed; no approved scoring rules supplied | Obtain exact Inception Report scoring table and prepare a separate revision for human approval |
-| V04 | Country-track implementation and chronology unresolved | Confirm track/country lists, identifiers, mappings, dates and missing/multi-track handling |
-| V05 | Highest human-checked activity score proposal unapproved | Obtain human decision on CERF-M001 and its operational questions; do not apply |
-| V06 | Classification confidence not established | Name reviewers and approve review sampling, evidence-strength conventions, confidence criteria and adjudication before independent case-study comparison |
-| V07 | No substantive analysis code, portfolio run record or validated output supplied here | Locate existing work or implement an approved pilot later; no grading in this session |
-| V08 | Scope details and approval authority missing | Confirm evaluation period, country/track coverage, inclusion/exclusion criteria, owner contact and designated reviewers |
-| V09 | Research reproduction blocked | Freeze and link data/code/rules/score versions, commands and QA evidence before claiming reproducibility |
-| V10 | Client appendix remains an unapproved scaffold | Populate only from reviewed methodology and actual QA/results; human release review required |
-| V11 | Persistence statements in older reports are stale | Setup commit b51a58eea6f9a870f2d6ce4ead5692939b8c879d exists locally; GitHub verification is supplied by owner; remote/fresh-clone retrieval not rechecked here |
+| Essential — human | 147 review rows, including 25 P1; no completed human decisions recorded in the 182-record run | Review P1 actor/unit/claim conflicts first, record decisions and rationale separately. Entries combine activity cases and group controls, not 147 scoring errors. |
+| Essential — human | 54 unscored activities, including six retained calibration holds | Clarify achieved versus planned action, actor role and highest-result conflicts from the focal record; do not force code 6 or import other activities' results. |
+| Essential — scope | 41 pending group maxima; 36 unassigned memberships; possible duplicates, regional classification and eligibility remain open | Confirm accepted group/eligibility decisions before settling maxima. Three out-of-universe eligibility candidates remain excluded pending review. Preserve identifiers and provenance. |
+| Essential — review governance | Reviewer identity, adjudication and final acceptance arrangements not recorded | Name reviewers and record decisions with evidence, dates and rationale before final evaluation use. Do not claim inter-rater reliability from agent checks. |
+| Methodological documentation | Separate final evidence-standardisation one-pager not supplied; recent Word summary remains a draft | Obtain final owner document and check concordance with current mapping and explicit approved standards. Do not invent the missing document. |
+| Source authority | Full Inception Report, version/page citation, surrounding explanation and complete original prompt archive unavailable | Retain the visible Appendix B transcription as the working source; do not claim whole-report validation or a complete immutable model-call history. |
+| Historical comparability | Older 249-record A/B/C/D score set has no verified crosswalk to corrected 182 IDs | Preserve separately; do not transfer old scores, group membership or human approvals. |
+| Technical follow-through | Static workbook review cells do not recalculate maxima | Save reviewed results in a new version, rerun the controlled calculation and validate counts/ties/bounds. No blocking technical failure is currently recorded. |
+| Access and persistence | Restricted files are local/internal; shared-drive and SharePoint links/permissions not verified | Use the safe manifest to request approved access. A GitHub clone retrieves documentation, not data. PR review is required before main changes. |
 
-See `handover_test_20261023.md` for the earlier read-only test and
-`documentation_review_20261023.md` for this revision's checks. Earlier synthetic
-test claims in `environment_setup.md` are historical and do not validate CERF
-classifications. SharePoint publication and permissions remain unverified.
+See [verified status and validation limits](project_state_20261104.md), [the restricted manifest](../02_ACTIVITY_DATA/restricted_manifest_20261104_v1.json) and [current rules](../01_METHODOLOGY/scoring_rules.md). No independent outcome verification, new scoring or causal assessment is performed by this documentation pass.

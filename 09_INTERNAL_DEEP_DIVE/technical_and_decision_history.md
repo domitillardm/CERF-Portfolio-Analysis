@@ -1,82 +1,33 @@
-# CERF internal guide and documentation history
+# CERF technical and decision history
 
-Updated 2026-10-23. This stable, human-readable guide complements generated audit
-reports; do not target the original report generators at this repository root.
+Current handover reconciliation: **4 November 2026**. Use [start here](../00_START_HERE.md) and [current operationalisation](../01_METHODOLOGY/OPERATIONALISATION_CURRENT.md) for live status.
 
-## Current interpretation and evidence status
+## Development history retained
 
-Read `01_METHODOLOGY/PROJECT_EXPLAINED.md` for programme purpose, working research
-questions, stages, limitations and the proposed scoring workflow. Programme context
-and core principles were supplied by the owner in this chat. External preparation
-and anonymisation are owner-reported completion claims; source and validation
-records are not linked. Existing scores/prompts/rules are referenced but not
-accessible as authoritative inputs here. No CERF result or confidence assessment
-is validated by this documentation work.
+| Stage | Evidence and present interpretation |
+| --- | --- |
+| Repository setup and initial handbook | Main base `e73e975` retains the initial audit scaffold and October context. Its no-approved-framework warnings described that earlier stage. Git history remains intact. |
+| Later methodology and 249-record work | Branch [docs/portfolio-methodology-audit-20261028](https://github.com/domitillardm/CERF-Portfolio-Analysis/tree/12c46a05d546fe01c02792b06c9928e2779d9422) contains v0.2/F1, all 60 historical decisions, implementation-independence audits and separate frozen-C comparison history. It is historical, not the current 182-record run. |
+| Corrected reconstruction | Separate authorised workspace produced the corrected 182-record, 28-column Universe, mapping, identifier crosswalk, provenance, corrections and validation. Files stay restricted and unchanged. |
+| Calibration and focused revision | Revised 20-record calibration adopted for working application. Unknown track membership was separated from activity evidence; six material highest-result holds remain. |
+| Full provisional scoring | Working version CERF-FULL-20261104-W2 completed and technically checked. Only focal-record scores and eligible achievement maxima are current. No human result validation is recorded. |
+| Handover documents | Three-page Word handover and one-page methodology summary prepared for owner review; not final methodological approval or a substitute for the missing separate standardisation document. |
+| Repository reconciliation | Current pages, safe manifest and appended working decisions reconcile these states without merging methodology branches or publishing restricted records. |
 
-Country-track analysis supports the main track-level analysis through activities
-ordered chronologically. Preserve achieved/potential and classification/evidence
-strength distinctions. Keep original AI scores intact; proposed revisions and
-human-final decisions must be separately traceable. The Inception Report scoring
-table is the required source for future revised definitions, but is not supplied.
+## What supersedes what
 
-## Decisions and approvals
+The original CERF-M001 human-checked maximum proposal and all later-branch decisions remain unchanged in the register. Appended CERF-W001–W007 record subsequent explicit owner working choices; they do not retrospectively validate historical outputs. Current maxima are based on supported provisional eligible achievements, with incomplete groups pending. Current focal-only scope supersedes use of old contextualised B, holistic C and A/B/C/D1/D2 as the live workflow. No earlier analysis is erased or treated as a current answer key.
 
-`06_DECISIONS/decision_register.csv` records CERF-M001: the meeting proposal to use
-the highest human-checked activity score per country-track. Status is provisional;
-no approver or meeting record is supplied. The handbook lists questions requiring
-confirmation. No score aggregation or revised scoring definition is adopted.
-Owner instructions are documented as instructions, not fabricated approval rows.
-Working research-question wording and the documentation package await review.
+The imported codebook and F1 files are unchanged branch sources. Their dated execution limits and wider provisional workflows must be read through [the current scope](../01_METHODOLOGY/scoring_rules.md). Historical claims of independent method agreement were already qualified in the old implementation audit; they are not invoked as validation of these new scores. The 249-to-182 crosswalk is unverified.
 
-## History and correction of stale status
+## Validation, failed work and limitations
 
-- Earlier setup records are retained under `04_ANALYSIS_LOGS/legacy_setup/` and
-  `04_ANALYSIS_LOGS/reports/20261023T112600Z_8a47129bf90649f6a502d5dcda748a02/`.
-- Setup records report successful synthetic checks, not CERF portfolio analysis.
-- Commit `b51a58eea6f9a870f2d6ce4ead5692939b8c879d` contains the repository setup.
-  Local presence was independently checked in this Cloud session. The owner
-  identifies it as verified on GitHub; no new remote verification was performed.
-  Historical claims that setup was uncommitted are superseded, not rewritten.
-- `05_VALIDATION/handover_test_20261023.md` retrospectively records this chat's
-  read-only handover test and its limits. Documentation accessibility passed;
-  research reproduction remained blocked.
-- Pre-edit copies of this session's existing documentation and baseline hashes
-  are in `04_ANALYSIS_LOGS/documentation_history/DOCUMENTATION-20261023-01/`.
-  These are historical copies; follow current root instructions when resuming.
+The current full run first stopped on optional metadata-column mismatch. Partial outputs were retained; union rendering fixed it before the validated deliverables. Relocated replay initially required complete private duplicate/eligibility inputs; the sealed final package then passed all input-hash and fresh-output checks. These are corrected technical attempts, not hidden successful scoring claims. Exact private records remain in the internal reproduction package.
 
-## Audit operation and gaps
+This documentation session also encountered an initial executor network/proxy connection failure and connector parameter-validation errors. A network-enabled fetch then succeeded and the later branch was inspected. Source-text comparison found only trailing-newline differences between branch and frozen rule snapshots. No methodological contradiction was concealed as byte identity.
 
-Use `scripts/session_log.py` for non-sensitive reported discussions, experiments,
-failed attempts, corrections, validation and decisions. Use `scripts/audit_run.py`
-for substantive executable analysis with explicit versions and input/output paths.
-The wrapper records commands, fingerprints, exit status and stream hashes; it
-does not validate score correctness or archive full discussions. Unwrapped work
-is not automatically captured. Do not log confidential source text or links.
+The [safe state record](../05_VALIDATION/project_state_20261104.md) distinguishes direct current checks, stored earlier QA and limits. Audit wrappers record commands, fingerprints and stream hashes; session events are reported summaries, not automatic capture of every conversation, UI edit or model call. A complete immutable original prompt/model-setting archive is unavailable. Neither reproducibility nor repeated agent review establishes independent outcome truth or causal attribution.
 
-No grading experiments or scoring-rule revisions were performed in this session.
-No scoring definitions, model configuration or evidence-strength thresholds were
-invented. The validation record identifies unrun checks and documentation errors.
-Methodological changes require human approval; no provisional decision is promoted
-by report generation. Preserve rejected proposals and failed runs when they occur.
+## Continue safely
 
-Use `scripts/finish_session.py` once documentation and validation are ready. It
-retains the immediately preceding handover and generates a new status, internal
-execution/event history and unapproved client scaffold in a unique directory.
-Follow `handover.json.latest_report` for those generated files; this stable guide
-is not their replacement. Prior documents are additionally retained by this
-session's documentation snapshot. No client release or SharePoint upload occurs.
-
-## Next researcher and deliverables
-
-Resolve `05_VALIDATION/issues.md` first: obtain secure references to the prepared
-dataset/validation, existing scores/prompts/rules and exact Inception Report table;
-confirm scope, mapping, reviewers and decision authority. Prepare separate
-instruction revisions and a human-review plan, then seek methodological approval
-before any authorised pilot. Establish classification confidence before comparison
-with independent case-study evidence. Produce traceable country-track narratives,
-track synthesis and provisional ETE hypotheses only after the relevant checks.
-An appendix requires actual approved rules, QA evidence and reproducible versions.
-
-This package is proposed local documentation. No commit or push is authorised until
-the user reviews it. GitHub, cloud snapshots and SharePoint are distinct persistence
-channels; present-session access does not verify all three.
+Obtain restricted files through approved access; preserve source, calibration and score baselines. Review the prioritised register, record human decisions separately and rerun maxima in a new version. No automatic scoring effect follows an Excel review-cell edit. The missing final standardisation document and formal adjudication arrangements require confirmation. GitHub docs, local workspace data and SharePoint publication are distinct channels; no shared-drive access or client release is implied.

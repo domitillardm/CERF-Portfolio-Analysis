@@ -17,16 +17,16 @@ strength. Monitoring outcome claims are not independently verified findings.
 Missing evidence is not proof of no results; frequencies are not success rates.
 Codex proposes; humans decide final scores and approve methodological changes.
 
-Preserve existing AI scores unchanged and store any later proposed revisions
-separately with baseline/version links. Review the existing prompts/rules and
-Inception Report scoring table before proposing definitions. The proposed highest
-human-checked activity score per country-track (`CERF-M001`) is unapproved; do not
-apply it. Establish classification confidence before independent case-study
-comparison. Owner-reported external data preparation is not repository validation.
-Record source, evidence status and unresolved approval for each substantive claim.
-Current documentation work authorises no grading, scoring-rule edits, dataset
-uploads or client publication. Present changes for review; no commit/push until
-the user approves. Preserve prior documents as well as generated report history.
+Preserve existing AI scores unchanged and store later proposals/human decisions
+separately with baseline/version links. Current working rules are in
+`01_METHODOLOGY/scoring_rules.md`: unchanged Appendix B v0.2, compatible F1,
+focal-only evidence and achievement-only maxima with pending scope/lower bounds.
+CERF-W001–W007 record later owner working decisions; historical CERF-M001 and
+older A/B/C/D proposals remain history, not the current workflow. Working
+approval is not human validation of results. Do not rescore, change definitions
+or publish data without task authorisation. The current documentation task
+explicitly authorises a dedicated branch, commit, push and review PR, not merge
+or client release. Preserve prior documentation and report history.
 
 - Start with `python3 scripts/setup_project.py`. Setup only creates missing files;
   never replace project documentation, input data, analysis or approved rules.
