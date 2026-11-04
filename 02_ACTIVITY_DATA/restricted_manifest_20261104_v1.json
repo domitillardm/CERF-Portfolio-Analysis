@@ -1,0 +1,209 @@
+{
+  "manifest_version": "CERF-RESTRICTED-20261104-v1",
+  "verified_on": "2026-11-04",
+  "classification": "Safe metadata only; all listed contents remain restricted and are NOT in Git",
+  "access": "Request approved internal access from the project owner. Workspace paths are locators, not shared-drive links or promises of GitHub availability.",
+  "methodology_version": "CERF-FULL-20261104-W2",
+  "files": [
+    {
+      "reference": "AU-CORRECTED-20261104-001",
+      "version": "CORRECTED-REVIEW-20261104-001",
+      "filename": "Revised Activity Universe.xlsx",
+      "workspace_locator": "/workspace/cerf-reconstruction-inspection/deliverables/CORRECTED-REVIEW-20261104-001/Revised Activity Universe.xlsx",
+      "sha256": "ce3385fa264f1250a018f3d4b8669062eb9c14184a755e80d1142431e51e800f",
+      "bytes": 1567143,
+      "purpose": "Authoritative corrected 182-record, 28-column working dataset",
+      "in_git": false
+    },
+    {
+      "reference": "AU-PROVENANCE-20261104-001",
+      "version": "CORRECTED-REVIEW-20261104-001",
+      "filename": "updated_provenance_register.csv",
+      "workspace_locator": "/workspace/cerf-reconstruction-inspection/deliverables/CORRECTED-REVIEW-20261104-001/updated_provenance_register.csv",
+      "sha256": "18f271e439b12c105bea4391a578d1650b236ace0c633be201ba27ba4a02973f",
+      "bytes": 4263000,
+      "purpose": "Cell-level extraction and review provenance",
+      "in_git": false
+    },
+    {
+      "reference": "AU-CROSSWALK-20261104-001",
+      "version": "CORRECTED-REVIEW-20261104-001",
+      "filename": "identifier_crosswalk.json",
+      "workspace_locator": "/workspace/cerf-reconstruction-inspection/deliverables/CORRECTED-REVIEW-20261104-001/identifier_crosswalk.json",
+      "sha256": "572668e7cea91f0b38412cdf8c93be83a4b8e75a3085fa7597ae748b5732d27d",
+      "bytes": 104462,
+      "purpose": "Persistent activity identifier crosswalk",
+      "in_git": false
+    },
+    {
+      "reference": "AU-MAPPING-20261104-001",
+      "version": "inputs",
+      "filename": "CERF Restructuring (1).xlsx",
+      "workspace_locator": "/workspace/cerf-reconstruction-inspection/deliverables/CORRECTED-REVIEW-20261104-001/inputs/CERF Restructuring (1).xlsx",
+      "sha256": "e89e301bc30c9d2135a02f278a9f1c3b687512dbf0ee4366f498abbefe7e8069",
+      "bytes": 39620,
+      "purpose": "Original variable definitions and mapping reference",
+      "in_git": false
+    },
+    {
+      "reference": "AU-QA-20261104-001",
+      "version": "CORRECTED-REVIEW-20261104-001",
+      "filename": "correction_validation_checks.json",
+      "workspace_locator": "/workspace/cerf-reconstruction-inspection/deliverables/CORRECTED-REVIEW-20261104-001/correction_validation_checks.json",
+      "sha256": "157733f95ca0c3f1984b8caadba195dd71d081105df2c2161aad5ef69f809b9e",
+      "bytes": 795,
+      "purpose": "Correction checks; historical acceptance note predates later authorisation",
+      "in_git": false
+    },
+    {
+      "reference": "CALIBRATION-REVISION-20261104-01",
+      "version": "CALIBRATION-REVISION-20261104-01",
+      "filename": "Revised CERF calibration.xlsx",
+      "workspace_locator": "/workspace/CERF-Portfolio-Analysis/07_RESULTS/CALIBRATION-REVISION-20261104-01/Revised CERF calibration.xlsx",
+      "sha256": "fe68eab790dff166cfc3bf26ef32c1d8e52536a9d40fd88cb5db7b048c1aca3f",
+      "bytes": 55838,
+      "purpose": "Revised 20-record calibration; owner-approved working basis",
+      "in_git": false
+    },
+    {
+      "reference": "CALIBRATION-DECISIONS-20261104-01",
+      "version": "CALIBRATION-REVISION-20261104-01",
+      "filename": "Material scoring decisions.csv",
+      "workspace_locator": "/workspace/CERF-Portfolio-Analysis/07_RESULTS/CALIBRATION-REVISION-20261104-01/Material scoring decisions.csv",
+      "sha256": "454abb8fd62d5598aa44ba794574a8eca2b84391bebd4a062338656749adf7ce",
+      "bytes": 2410,
+      "purpose": "Material scoring boundary decisions",
+      "in_git": false
+    },
+    {
+      "reference": "SCORING-FULL-20261104-01",
+      "version": "FULL-PROVISIONAL-20261104-01",
+      "filename": "Full provisional scoring.xlsx",
+      "workspace_locator": "/workspace/CERF-Portfolio-Analysis/07_RESULTS/FULL-PROVISIONAL-20261104-01/Full provisional scoring.xlsx",
+      "sha256": "e924d49d9f38760c763f9c3399c95544e26010388f648416e9dfd56964b9cd69",
+      "bytes": 327016,
+      "purpose": "Current provisional scoring workbook; human validation pending",
+      "in_git": false
+    },
+    {
+      "reference": "SCORING-ROWS-20261104-01",
+      "version": "FULL-PROVISIONAL-20261104-01",
+      "filename": "Activity scoring.csv",
+      "workspace_locator": "/workspace/CERF-Portfolio-Analysis/07_RESULTS/FULL-PROVISIONAL-20261104-01/Activity scoring.csv",
+      "sha256": "37f2f82bf925a9e6581c0ffde36567511469095394ed7c05b9b0c024860ae4ed",
+      "bytes": 395737,
+      "purpose": "182 focal activity proposals and review fields",
+      "in_git": false
+    },
+    {
+      "reference": "TRACKS-FULL-20261104-01",
+      "version": "FULL-PROVISIONAL-20261104-01",
+      "filename": "Country-track summary.xlsx",
+      "workspace_locator": "/workspace/CERF-Portfolio-Analysis/07_RESULTS/FULL-PROVISIONAL-20261104-01/Country-track summary.xlsx",
+      "sha256": "9a7414910f98781981a4b4b0e65811ac2486afd02301b20df8dc156f982bc373",
+      "bytes": 33968,
+      "purpose": "51 exact source-code groups; 10 numeric maxima and 41 pending",
+      "in_git": false
+    },
+    {
+      "reference": "REVIEW-FULL-20261104-01",
+      "version": "FULL-PROVISIONAL-20261104-01",
+      "filename": "Human review register.xlsx",
+      "workspace_locator": "/workspace/CERF-Portfolio-Analysis/07_RESULTS/FULL-PROVISIONAL-20261104-01/Human review register.xlsx",
+      "sha256": "396f8f9466e50842f0a32d21749cc66afb74ae988756e94cbc36237041caacf5",
+      "bytes": 56595,
+      "purpose": "147 review entries, including 25 P1; decisions blank",
+      "in_git": false
+    },
+    {
+      "reference": "EVIDENCE-FULL-20261104-01",
+      "version": "FULL-PROVISIONAL-20261104-01",
+      "filename": "Evidence excerpts.csv",
+      "workspace_locator": "/workspace/CERF-Portfolio-Analysis/07_RESULTS/FULL-PROVISIONAL-20261104-01/Evidence excerpts.csv",
+      "sha256": "4997902722a7957c36bcfa655286ef567120f438ab583c2078875404fe55e309",
+      "bytes": 371566,
+      "purpose": "525 exact focal-record excerpts; restricted monitoring evidence",
+      "in_git": false
+    },
+    {
+      "reference": "MATRIX-FULL-20261104-01",
+      "version": "FULL-PROVISIONAL-20261104-01",
+      "filename": "Evidence-to-variable matrix reviewed.csv",
+      "workspace_locator": "/workspace/CERF-Portfolio-Analysis/07_RESULTS/FULL-PROVISIONAL-20261104-01/Evidence-to-variable matrix reviewed.csv",
+      "sha256": "48cd29df07d7cb3c04752e77a35221ff16733b9f7c64887e4a77ae2e68337ed8",
+      "bytes": 6887,
+      "purpose": "Reviewed evidence standardisation by target variable",
+      "in_git": false
+    },
+    {
+      "reference": "RULES-FULL-20261104-W2",
+      "version": "FULL-PROVISIONAL-20261104-01",
+      "filename": "working_rules.json",
+      "workspace_locator": "/workspace/CERF-Portfolio-Analysis/07_RESULTS/FULL-PROVISIONAL-20261104-01/working_rules.json",
+      "sha256": "bd37bad4bab22abd50197c5f9894265c840de22beaf654b3ce86605bde04170a",
+      "bytes": 1915,
+      "purpose": "Owner-confirmed working scope and vocabulary",
+      "in_git": false
+    },
+    {
+      "reference": "QA-FULL-20261104-01",
+      "version": "FULL-PROVISIONAL-20261104-01",
+      "filename": "technical_validation.json",
+      "workspace_locator": "/workspace/CERF-Portfolio-Analysis/07_RESULTS/FULL-PROVISIONAL-20261104-01/technical_validation.json",
+      "sha256": "643d9b4562963c5c1888eb234569d8b1fc9e9613eff703bd8dd18b3e20bcf579",
+      "bytes": 1084,
+      "purpose": "Technical coverage, traceability and maxima checks",
+      "in_git": false
+    },
+    {
+      "reference": "QA-REPLAY-20261104-01",
+      "version": "FULL-PROVISIONAL-20261104-01",
+      "filename": "portable_bundle_validation.json",
+      "workspace_locator": "/workspace/CERF-Portfolio-Analysis/07_RESULTS/FULL-PROVISIONAL-20261104-01/portable_bundle_validation.json",
+      "sha256": "b400881b261870dc307334c488edbbf233bf3a1312db59253a172c2a2e8a6afe",
+      "bytes": 270,
+      "purpose": "Relocated replay: 138 input/snapshot hashes verified",
+      "in_git": false
+    },
+    {
+      "reference": "REPORT-FULL-20261104-01",
+      "version": "FULL-PROVISIONAL-20261104-01",
+      "filename": "Validation report.txt",
+      "workspace_locator": "/workspace/CERF-Portfolio-Analysis/07_RESULTS/FULL-PROVISIONAL-20261104-01/Validation report.txt",
+      "sha256": "c1128822f2a47370da7f5b8816165a7c00c6a0fbdfe317a4f540cf74f6b34088",
+      "bytes": 8878,
+      "purpose": "Technical and agent substantive checks; limitations and exceptions",
+      "in_git": false
+    },
+    {
+      "reference": "REPRO-FULL-20261104-01",
+      "version": "FULL-PROVISIONAL-20261104-01",
+      "filename": "Full provisional scoring review package.zip",
+      "workspace_locator": "/workspace/CERF-Portfolio-Analysis/07_RESULTS/FULL-PROVISIONAL-20261104-01/Full provisional scoring review package.zip",
+      "sha256": "ad86fb734ace42c4170b135c3d4444d304674d3d1083bf6f62ee7e1d5621c0e9",
+      "bytes": 5761114,
+      "purpose": "Internal reproduction bundle, INCLUDING confidential cleared inputs",
+      "in_git": false
+    },
+    {
+      "reference": "CODEBOOK-SNAPSHOT-20261104-01",
+      "version": "methodology",
+      "filename": "SCORING_CODEBOOK_DRAFT_v0.2.md",
+      "workspace_locator": "/workspace/CERF-Portfolio-Analysis/07_RESULTS/FULL-PROVISIONAL-20261104-01/methodology/SCORING_CODEBOOK_DRAFT_v0.2.md",
+      "sha256": "5d7c1ed5eed24f93d69e89d287e067375bc2d295dd28410937b116b398877515",
+      "bytes": 33623,
+      "purpose": "Frozen scoring-run source snapshot",
+      "in_git": false
+    },
+    {
+      "reference": "F1-SNAPSHOT-20261104-01",
+      "version": "methodology",
+      "filename": "CALIBRATION_ADDENDUM_v0.2-F1.md",
+      "workspace_locator": "/workspace/CERF-Portfolio-Analysis/07_RESULTS/FULL-PROVISIONAL-20261104-01/methodology/CALIBRATION_ADDENDUM_v0.2-F1.md",
+      "sha256": "c708b949b4014622d04813ba5d3cbbe491dcf50cbfadebc468511333e2356b53",
+      "bytes": 11084,
+      "purpose": "Frozen scoring-run convention snapshot",
+      "in_git": false
+    }
+  ]
+}

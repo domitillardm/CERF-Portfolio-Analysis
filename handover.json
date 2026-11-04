@@ -1,67 +1,137 @@
 {
-  "purpose": "Support the CERF End-Term Evaluation with portfolio breadth across tracks: reported activities/results, possible pathways, evidence quality, recurring mechanisms and provisional findings/hypotheses; context supplied by project owner.",
-  "phase": "Documentation proposal for review; current substantive priority is grading-instruction improvement and country-track analysis. No grading in this session.",
-  "authoritative_dataset": "Preparation and anonymisation completed outside this repository according to project owner; authoritative dataset/version, access reference and validation records not yet linked or independently checked.",
-  "approved_rules": "No approved scoring framework supplied. Review existing prompts/rules and exact Inception Report scoring table before proposing revised definitions; CERF-M001 is provisional. Existing scoring_rules.md unchanged.",
-  "validated_output": "No substantive CERF output validated in this repository. Setup tests previously reported passed with synthetic fixtures only; current-session documentation accessibility and static checks do not validate classifications.",
-  "owner": "Project owner supplied context and instructions in this chat; named contact, designated human reviewers and methodological approval authority NOT YET CONFIRMED.",
-  "next_action": "Review documentation; obtain secure versions/references for prepared data and validation, existing scores/prompts/rules and Inception Report table; confirm scope, country-track mapping, reviewers and CERF-M001. No grading, commit or push before relevant approval.",
-  "blocker": "Source and validation links, approved scoring definitions, baseline score versions, country-track details, named reviewers and confidence/adjudication protocol remain pending; documentation review and commit/push approval outstanding.",
-  "latest_session": "DOCUMENTATION-20261023-01",
-  "latest_report": "04_ANALYSIS_LOGS/reports/20261023T115913Z_64c57d3ad2254fb5afb0489017e70877",
-  "context_source": {
-    "type": "project-owner instructions in current chat",
-    "date": "2026-10-23",
-    "status": "owner-provided; documentation awaits review; external completion claims not independently checked"
+  "schema_version": "CERF-HANDOVER-20261104-v1",
+  "as_of": "2026-11-04",
+  "purpose": "Monitoring-based portfolio breadth for CERF End-Term Evaluation; activity evidence supports country-track review.",
+  "phase": "Corrected 182-activity universe fully provisionally assessed; technical checks passed; human validation pending",
+  "authoritative_dataset": {
+    "reference": "AU-CORRECTED-20261104-001",
+    "records": 182,
+    "columns": 28,
+    "status": "Owner-authorised internal working input; restricted"
   },
-  "analytical_structure": {
-    "main_unit": "CERF tracks",
-    "supporting_evidence": "Activities organised by country, track and chronological order",
-    "country_track_summary": "Highest human-checked activity score proposed (CERF-M001), pending confirmation; do not apply"
+  "authoritative_scoring_output": {
+    "reference": "SCORING-FULL-20261104-01",
+    "methodology_version": "CERF-FULL-20261104-W2",
+    "status": "Provisional AI proposals; not human-validated findings"
   },
-  "completed_reported": [
-    "External data preparation and anonymisation according to owner; supporting records pending",
-    "Existing AI scores referenced by owner; baseline file/version and review status pending"
-  ],
+  "restricted_manifest": "02_ACTIVITY_DATA/restricted_manifest_20261104_v1.json",
+  "methodology": {
+    "source": "01_METHODOLOGY/SCORING_CODEBOOK_DRAFT_v0.2.md section 2",
+    "conventions": "01_METHODOLOGY/CALIBRATION_ADDENDUM_v0.2-F1.md compatible conventions only",
+    "current_scope": "01_METHODOLOGY/scoring_rules.md",
+    "activity_evidence": "Focal activity own record only; track uncertainty is separate",
+    "achievement_codes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "information_code": 6,
+    "future_potential": [
+      "Yes",
+      "No"
+    ],
+    "pending_future": "Separate uncertainty; not a third classification",
+    "evidence_basis": [
+      "Monitoring claim only",
+      "Named or linked source",
+      "Independently corroborated",
+      "Unclear or missing"
+    ],
+    "evidence_basis_status": "Owner-approved working vocabulary; no final human methodological validation",
+    "country_track": "Maximum eligible accepted-member achievement 1\u20134; incomplete groups pending with lower bounds and ties; all-6 insufficient information",
+    "no_contextual_or_holistic_scoring": true
+  },
+  "verified_status": {
+    "activity_count": 182,
+    "achievement_count": 126,
+    "score_counts": {
+      "1": 12,
+      "2": 41,
+      "3": 18,
+      "4": 55,
+      "6": 2
+    },
+    "unscored": 54,
+    "country_track_groups": 51,
+    "provisional_numeric_maxima": 10,
+    "pending_maxima": 41,
+    "unassigned_memberships": 36,
+    "review_rows": 147,
+    "P1_rows": 25,
+    "completed_human_score_reviews": 0,
+    "completed_human_decisions": 0,
+    "calibration_records": 20,
+    "calibration_holds_preserved_count": 6,
+    "exact_excerpts_checked": 525,
+    "technical_checks_passed": true,
+    "private_relocated_replay_passed": true,
+    "human_validation_complete": false
+  },
   "completed_verified": [
-    "Repository audit/reporting scripts accessible in this Cloud session",
-    "Setup commit b51a58eea6f9a870f2d6ce4ead5692939b8c879d present locally"
+    "Corrected reconstruction and explicit evidence recovery",
+    "Revised 20-activity working calibration",
+    "182-record full provisional scoring and technical validation",
+    "Restricted relocated reproduction; no independent new assessment",
+    "Current local file hashes and aggregate status rechecked for documentation"
   ],
-  "current_priorities": [
-    "Review and improve AI grading instructions using the Inception Report scoring table",
-    "Introduce country-track analysis with country/track/chronological organisation"
+  "approval": {
+    "authority": "Project owner via explicit instructions in this conversation; no invented named reviewer",
+    "working_calibration_approved": true,
+    "full_provisional_execution_authorised": true,
+    "full_provisional_execution_completed": true,
+    "final_human_methodology_validation": false,
+    "individual_human_validation_recorded": false,
+    "documentation_commit_push_PR_authorised": true,
+    "merge_authorised": false,
+    "confidential_data_upload_authorised": false
+  },
+  "pending_documents": [
+    "Separate final evidence-standardisation one-pager (recent Word summary remains draft)",
+    "Full Inception Report, version/page citation and broader explanation",
+    "Complete original prompt/model-call archive",
+    "Verified historical 249-to-182 score crosswalk"
   ],
-  "planned_stages": [
-    "Locate authoritative sources and approvals",
-    "Develop separate instruction revisions for human approval",
-    "Authorised audited pilot preserving existing scores",
-    "Human review, adjudication and confidence assessment",
-    "Country-track and track synthesis",
-    "Compare with independent case-study evidence after confidence is established",
-    "Reviewed methodological appendix"
-  ],
-  "score_preservation": "Existing AI scores remain unchanged; revised proposals and human-final decisions must be separately versioned and traceable.",
   "pending_decisions": [
-    "CERF-M001: maximum human-checked activity score per country-track",
-    "Revised scoring definitions and instructions after source review",
-    "Country-track mapping/date handling and summary details",
-    "Human review, evidence-strength, confidence and adjudication conventions"
+    "Human adjudication of material classifications and six calibration holds",
+    "Eligibility, duplicate, regional classification and accepted track membership",
+    "Reviewer identity, review protocol and final acceptance",
+    "Recalculate pending maxima after recorded decisions"
   ],
+  "next_action": "Review the documentation PR before merging; obtain approved internal file access and adjudicate private P1 review cases separately.",
+  "blocker": "Final standardisation one-pager, complete Inception Report, formal reviewer decisions and shared-file access remain pending.",
+  "current_priorities": [
+    "Review P1 evidence and material ambiguities",
+    "Resolve relevant group scope and preserve remaining uncertainty",
+    "Version human decisions and recompute maxima",
+    "Prepare evaluation outputs only after human approval"
+  ],
+  "score_preservation": "Original inputs, permanent identifiers, calibration and historical scores remain unchanged; later human decisions must be separately versioned.",
   "current_session_constraints": [
-    "Documentation and audit-agent revision only",
-    "No grading or scoring-rule changes",
-    "No dataset upload or client publication",
-    "No staging, commit or push before user approval"
+    "Documentation only; no new scoring or analytical claims",
+    "No restricted datasets, raw evidence, workbooks or credentials in Git",
+    "Dedicated branch and PR only; no merge or client release"
   ],
   "persistence": {
-    "setup_commit": "b51a58eea6f9a870f2d6ce4ead5692939b8c879d",
-    "local_commit_status": "Verified present in current checkout",
-    "github_status": "Verified GitHub commit according to owner; not independently queried this session",
-    "cloud_status": "Setup files accessible in this new Cloud session; fresh GitHub retrieval and future restoration not demonstrated",
-    "sharepoint_status": "No sync configured; upload and permissions not verified",
-    "documentation_changes": "Local proposed changes; uncommitted and unpushed pending user approval"
+    "repository": "domitillardm/CERF-Portfolio-Analysis",
+    "branch": "docs/current-cerf-handover-20261104",
+    "status": "Prepared for documentation PR review; remote verification is recorded in the session publication check",
+    "restricted_files": "Local/internal only; never assumed present in Git",
+    "sharepoint": "No verified sync, upload or recipient permissions"
   },
-  "documentation_history": "04_ANALYSIS_LOGS/documentation_history/DOCUMENTATION-20261023-01",
-  "handbook": "01_METHODOLOGY/PROJECT_EXPLAINED.md",
-  "internal_guide": "09_INTERNAL_DEEP_DIVE/technical_and_decision_history.md"
+  "source_history": {
+    "main_base": "e73e975",
+    "later_methodology_commit": "12c46a05d546fe01c02792b06c9928e2779d9422",
+    "later_branch": "docs/portfolio-methodology-audit-20261028",
+    "old_249_record_workflow": "Historical only; no verified crosswalk to new IDs",
+    "source_snapshot_difference": "Frozen v0.2/F1 snapshots differ from branch source only by an extra final newline",
+    "historical_main_handover": "https://github.com/domitillardm/CERF-Portfolio-Analysis/blob/e73e9753568093dfb684e56ee2359275642bbcd6/handover.json"
+  },
+  "historical_context_notice": "Prior handovers remain in Git history and the private runtime snapshot; current top-level fields supersede dated execution warnings.",
+  "latest_session": "DOCS-RECONCILE-20261104-01",
+  "status_record": "05_VALIDATION/project_state_20261104.md",
+  "internal_guide": "09_INTERNAL_DEEP_DIVE/technical_and_decision_history.md",
+  "client_appendix_status": "Draft; not approved for client circulation",
+  "latest_report": "04_ANALYSIS_LOGS/reports/20261104T125701Z_71091f66f6b8418983e0d5f395ec7171",
+  "latest_report_access": "Local runtime archive, not committed. Use status_record for the repository-accessible validation summary."
 }
