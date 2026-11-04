@@ -1,9 +1,5 @@
 # CERF Portfolio Analysis
 
-Current project navigation: [00_START_HERE.md](00_START_HERE.md).
+Start with [the current handover](00_START_HERE.md). The corrected 182-activity universe has been provisionally scored and technically checked; human validation is pending. This repository contains methodology and safe status references, **not confidential workbooks or monitoring evidence**.
 
-This repository holds privacy-reviewed methodology, audit findings, decision/logbook history, technical checks and provisional handover documentation for the CERF end-term portfolio analysis. The detailed scoring dataset, original evidence, raw data, annotations and exact score histories remain outside Git.
-
-The portfolio is provisionally scored, not formally validated. See the [independence audit](05_VALIDATION/method_independence_audit_20261028.md): historical score reuse means agreement cannot establish independent method validity. No dataset changes are part of this documentation update.
-
-Follow AGENTS and ENVIRONMENT for audit/version-control procedures. Do not commit confidential data or claim client release/human approval without evidence. Documentation publication is separate from methodology approval, independent verification and SharePoint access.
+See the [restricted-file manifest](02_ACTIVITY_DATA/restricted_manifest_20261104_v1.json), [current methodology](01_METHODOLOGY/OPERATIONALISATION_CURRENT.md), [review priorities](05_VALIDATION/issues.md) and [operating instructions](AGENTS.md). Historical proposals remain history; code 6 means insufficient information, not an outcome level.

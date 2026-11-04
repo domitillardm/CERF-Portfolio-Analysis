@@ -1,0 +1,12 @@
+{
+  "session": "DOCS-RECONCILE-20261104-01",
+  "date": "2026-11-04",
+  "capture": "Reported non-sensitive session summary, not an automatic conversation transcript",
+  "owner_request": "Reconcile current documentation, commit and push a dedicated branch, open a PR; no merge or restricted upload",
+  "current_state_verified": "182-record corrected universe and completed provisional scoring; technical checks passed; human decisions not recorded",
+  "history_preserved": "60 later-branch decision rows retained, seven explicit working decisions appended; v0.2/F1 source bytes preserved",
+  "missing_authority": "Final separate evidence-standardisation one-pager and full Inception Report remain unavailable",
+  "checks": "Documentation and staged allowlist scanner; restricted hash and aggregate-count checks; manual diff inspection before push",
+  "data_policy": "No activity rows, raw evidence, workbooks, scores, confidential archives or unrelated runtime logs in publication set",
+  "next_action": "Review PR and then adjudicate private human review register; no final evaluation use yet"
+}

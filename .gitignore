@@ -60,3 +60,6 @@ node_modules/
 
 # Non-sensitive JSON audit records and CSV decision/validation registers are
 # intentionally eligible for Git. Review their contents before every commit.
+
+# Reviewed safe restricted-file manifest contains references/hashes only.
+!/02_ACTIVITY_DATA/restricted_manifest_20261104_v1.json

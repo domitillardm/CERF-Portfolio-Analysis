@@ -1,31 +1,33 @@
-# CERF internal technical guide — current 28 October 2026
+# CERF technical and decision history
 
-Read [operationalisation](../01_METHODOLOGY/OPERATIONALISATION_CURRENT.md), [scoring history](scoring_and_classification_history_20261028.md) and [independence audit](../05_VALIDATION/method_independence_audit_20261028.md). This current guide supersedes the historical setup-only status; prior bytes remain in documentation history and earlier commits.
+Current handover reconciliation: **4 November 2026**. Use [start here](../00_START_HERE.md) and [current operationalisation](../01_METHODOLOGY/OPERATIONALISATION_CURRENT.md) for live status.
 
-## Critical audit result
+## Development history retained
 
-A/B are not demonstrated independent scoring passes: B was initially A-default with explicit contextual overrides. C for 69 original singleton groups copied A;32 multi-group C entries were authored separately, but no blinding or full-run independent C-only freeze is evidenced. D1/D2 are calculated summaries. Pilot C was locked before D; full materialisation assigns C before D in code but freezes them together afterward. Current 100% paired track agreement is recorded-output agreement, not independent method validation. See precise evidence labels and corrective recommendations in the audit.
+| Stage | Evidence and present interpretation |
+| --- | --- |
+| Repository setup and initial handbook | Main base `e73e975` retains the initial audit scaffold and October context. Its no-approved-framework warnings described that earlier stage. Git history remains intact. |
+| Later methodology and 249-record work | Branch [docs/portfolio-methodology-audit-20261028](https://github.com/domitillardm/CERF-Portfolio-Analysis/tree/12c46a05d546fe01c02792b06c9928e2779d9422) contains v0.2/F1, all 60 historical decisions, implementation-independence audits and separate frozen-C comparison history. It is historical, not the current 182-record run. |
+| Corrected reconstruction | Separate authorised workspace produced the corrected 182-record, 28-column Universe, mapping, identifier crosswalk, provenance, corrections and validation. Files stay restricted and unchanged. |
+| Calibration and focused revision | Revised 20-record calibration adopted for working application. Unknown track membership was separated from activity evidence; six material highest-result holds remain. |
+| Full provisional scoring | Working version CERF-FULL-20261104-W2 completed and technically checked. Only focal-record scores and eligible achievement maxima are current. No human result validation is recorded. |
+| Handover documents | Three-page Word handover and one-page methodology summary prepared for owner review; not final methodological approval or a substitute for the missing separate standardisation document. |
+| Repository reconciliation | Current pages, safe manifest and appended working decisions reconcile these states without merging methodology branches or publishing restricted records. |
 
-## Source and version boundaries
+## What supersedes what
 
-`handover.json.current_provisional_dataset` identifies the immutable authoritative workbook; lean/analytical workbooks are static presentation/analysis copies. Detailed score histories, source fields, literal owner choices, exact evidence IDs and scripts with confidential annotations live under `/workspace/cerf-private`, not Git. Source hashes establish identity, not truth. Public documentation contains aggregate coverage and algorithm descriptions only. The protected exclusion annex enumerates every excluded unit and reason without publishing row-level scores.
+The original CERF-M001 human-checked maximum proposal and all later-branch decisions remain unchanged in the register. Appended CERF-W001–W007 record subsequent explicit owner working choices; they do not retrospectively validate historical outputs. Current maxima are based on supported provisional eligible achievements, with incomplete groups pending. Current focal-only scope supersedes use of old contextualised B, holistic C and A/B/C/D1/D2 as the live workflow. No earlier analysis is erased or treated as a current answer key.
 
-## Reproduction and handover
+The imported codebook and F1 files are unchanged branch sources. Their dated execution limits and wider provisional workflows must be read through [the current scope](../01_METHODOLOGY/scoring_rules.md). Historical claims of independent method agreement were already qualified in the old implementation audit; they are not invoked as validation of these new scores. The 249-to-182 crosswalk is unverified.
 
-Run setup only in authorised writing sessions, and use audit_run/session_log/finish_session per AGENTS. Preserve snapshots before editing root documents. The finaliser invokes generators inside a unique report directory, never against human-maintained root documents. Generated historical client scaffolds are not the current populated provisional appendix; use the root appendix linked from the start page. Existing report folders remain local history; curated, reviewed documentation is what this publication commits.
+## Validation, failed work and limitations
 
-The session log is agent-reported, not a complete prompt/model transcript. Wrapped commands, fingerprints and outcomes are available; unwrapped annotation authorship is not independently reconstructable. Full confidential scoring cannot be replayed from a Git checkout alone. Obtain authorised private artifacts and exact source/method versions. Missing model/settings/full prompt archives and independent human validation must remain explicit.
+The current full run first stopped on optional metadata-column mismatch. Partial outputs were retained; union rendering fixed it before the validated deliverables. Relocated replay initially required complete private duplicate/eligibility inputs; the sealed final package then passed all input-hash and fresh-output checks. These are corrected technical attempts, not hidden successful scoring claims. Exact private records remain in the internal reproduction package.
 
-## Corrections and publication
+This documentation session also encountered an initial executor network/proxy connection failure and connector parameter-validation errors. A network-enabled fetch then succeeded and the later branch was inspected. Source-text comparison found only trailing-newline differences between branch and frozen rule snapshots. No methodological contradiction was concealed as byte identity.
 
-Earlier XML namespace/property defects and literal escape-marker encoding were repaired with preserved prior files and fresh-library exports. Independent SQL/engine checks are technical QA, not rescoring or outcome verification. Current documentation replaces stale setup status and corrects overstrong independence language while retaining original decision rows and histories. Publish only explicitly selected privacy-reviewed text; never `git add .`. User authorised this documentation commit/push, not client release or scoring changes. Verify remote SHA and fresh checkout before claiming GitHub persistence; SharePoint remains separate and unverified.
+The [safe state record](../05_VALIDATION/project_state_20261104.md) distinguishes direct current checks, stored earlier QA and limits. Audit wrappers record commands, fingerprints and stream hashes; session events are reported summaries, not automatic capture of every conversation, UI edit or model call. A complete immutable original prompt/model-setting archive is unavailable. Neither reproducibility nor repeated agent review establishes independent outcome truth or causal attribution.
 
+## Continue safely
 
-## New post-freeze comparison evidence — 28 October 2026
-
-The owner has supplied a separately frozen, score-masked C assessment for34 multi-activity tracks;33 numerical results and1 unresolved disposition are verified against the prepared inputs. The [post-freeze report](../05_VALIDATION/post_freeze_C_comparison_20261028.md) records30/33 agreement with original C,25/28 with D1 and26/29 with D2. Three numerical disagreements are downward; one status remains unresolved. Common-denominator rates are identical25/28. File/input integrity is verified; input isolation and freeze-before-reveal are documented assessor/user declarations without an independently signed access chronology. Neither output is a gold standard. No original or frozen score has changed. This is new evidence about an additional assessment, not a retraction of findings about original construction. Targeted four-case human adjudication is recommended before final classifications/bias claims; no broad rescoring is initiated.
-
-
-## Current supervisor interface — 28 October 2026
-
-A [single five-sheet workbook](../05_VALIDATION/supervisor_consolidation_20261028.md) now brings activity A/B, unique-track original C/D1/D2 and separate frozen C together for review. It changes no classifications, membership or evidence rules. All249 activities,93 defined units and7 clearly separate holding groups are reconciled. The four primary post-freeze questions are distinct from17 old source limitations,2 earlier diagnostics and3 readiness conditions. Blank reviewer notes have no automatic scoring effect. Descriptives count tracks once and expose valid/result-status denominators; they are not effectiveness rankings. Source/frozen files and detailed histories remain external to Git. This is the current review entry point, not a new authoritative scoring version or human approval.
+Obtain restricted files through approved access; preserve source, calibration and score baselines. Review the prioritised register, record human decisions separately and rerun maxima in a new version. No automatic scoring effect follows an Excel review-cell edit. The missing final standardisation document and formal adjudication arrangements require confirmation. GitHub docs, local workspace data and SharePoint publication are distinct channels; no shared-drive access or client release is implied.
