@@ -1,0 +1,62 @@
+{
+  "run_id": "68834972-51dd-4fbf-a357-a1735987ff91",
+  "task": "pilot-D-maxima-comparisons-export-and-qa",
+  "owner": "Codex",
+  "rules_version": "SCORING_CODEBOOK_DRAFT_v0.2-PILOT",
+  "started_utc": "2026-10-23T15:58:21.352402+00:00",
+  "command": [
+    "python3",
+    "/workspace/cerf-private/stage3-pilot-v1/deliver.py"
+  ],
+  "inputs": [
+    {
+      "path": "/workspace/cerf-private/stage3-pilot-v1/deliver.py",
+      "exists": true,
+      "bytes": 29993,
+      "sha256": "9bd892d353e370709dc313134dfcd3c80724e119ab5c409941c58fc3c5bb8c7d"
+    },
+    {
+      "path": "/workspace/cerf-private/stage3-pilot-v1/A_freeze_manifest.json",
+      "exists": true,
+      "bytes": 1421,
+      "sha256": "c698a73be646a863ee1656ff0e43e880cb01d207f934c1e4316e04fd97b5c1de"
+    },
+    {
+      "path": "/workspace/cerf-private/stage3-pilot-v1/BC_freeze_manifest.json",
+      "exists": true,
+      "bytes": 191,
+      "sha256": "dd1f3b280408e599c5ad6c939c75fc71ca755c3a2df1cecb4687e2bd8625f14c"
+    },
+    {
+      "path": "/workspace/cerf-private/stage3-pilot-v1/pilot_protocol.txt",
+      "exists": true,
+      "bytes": 4534,
+      "sha256": "dadc8e9631d96df27727b763b5656dbbf3eba3ec68dfb8610a2e780711ec01ad"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_sha256": "15e7f58589e59d3c823898be9b551f8253da7ec712fb2bd5cb8a58a7d6a8af2c",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "ended_utc": "2026-10-23T15:58:23.564424+00:00",
+  "outputs": [
+    {
+      "path": "/workspace/cerf-private/stage3-pilot-v1/CERF Stage 3 scoring pilot v1.xlsx",
+      "exists": true,
+      "bytes": 47406,
+      "sha256": "a6dd2915fd9b04228f985ccc248651145724dd5726a01e60fece42f3e2e3bbee"
+    },
+    {
+      "path": "/workspace/cerf-private/stage3-pilot-v1/validation.json",
+      "exists": true,
+      "bytes": 1840,
+      "sha256": "15e7f58589e59d3c823898be9b551f8253da7ec712fb2bd5cb8a58a7d6a8af2c"
+    },
+    {
+      "path": "/workspace/cerf-private/stage3-pilot-v1/Pilot results and methodological questions.md",
+      "exists": true,
+      "bytes": 12582,
+      "sha256": "07b8a868d614d2f515df4118259acde3e2c077a85c04689ee43477dd6dddfed0"
+    }
+  ]
+}

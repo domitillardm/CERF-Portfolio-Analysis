@@ -1,0 +1,32 @@
+{
+  "run_id": "941002ba-f706-4b77-89ce-af7e437fee76",
+  "task": "Read-only implementation-independence provenance audit: exact code branches, freeze hashes, execution order and per-comparison exclusions",
+  "owner": "Codex",
+  "rules_version": "v0.2-F1-read-only-audit",
+  "started_utc": "2026-10-28T11:03:42.203171+00:00",
+  "command": [
+    "python3",
+    "/workspace/cerf-private/independence-audit-20261028-v1/audit_workflow.py"
+  ],
+  "inputs": [
+    {
+      "path": "/workspace/cerf-private/final-consolidated-provisional-20261027-v1/delivery_manifest.json",
+      "exists": true,
+      "bytes": 3217,
+      "sha256": "5f3bda470269486f31956e1d5dec709204754dd3ca2bd9fc31b64274bf63b6a9"
+    }
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout_sha256": "e9697051d4bc0d71d6fa86dc52589d12f4da8fd6ceec1749bcfd7de6315acbda",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "ended_utc": "2026-10-28T11:03:44.038999+00:00",
+  "outputs": [
+    {
+      "path": "/workspace/cerf-private/independence-audit-20261028-v1/audit_findings.json",
+      "exists": true,
+      "bytes": 17228,
+      "sha256": "661336fbe60864d71de3c364a6fad764aa4f67168ec7792b5680005ded67675d"
+    }
+  ]
+}

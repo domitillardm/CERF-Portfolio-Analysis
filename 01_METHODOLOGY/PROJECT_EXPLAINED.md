@@ -1,37 +1,20 @@
-# CERF portfolio analysis — project handbook
+# CERF portfolio analysis — current project handbook
 
-Updated 4 November 2026. For a concise introduction, use [start here](../00_START_HERE.md). This handbook separates programme context, current working methods and pending validation.
+Updated 28 October 2026. CERF is the Climate and Energy Response Facility. This portfolio analysis supports its end-term evaluation by organising activity monitoring into provisional country-track evidence histories. It is complementary to independent case studies, not a substitute for them or a causal-impact evaluation.
 
-## Purpose and analytical unit
+The owner supplied programme context, the anonymised working copy and the visible Inception result table, then authorised provisional restructuring, pilot/full scoring, decision implementation and exploratory analysis. Formal approval of all classifications, independent verification of reported achievements, complete source provenance and client release are not established.
 
-The Climate and Energy Response Facility supported climate and energy initiatives through policy advice, technical assistance, studies, workshops and partnership development. The End-Term Evaluation combines portfolio breadth with deeper case studies, interviews and surveys. Portfolio analysis organises reported actions, outputs, use and external change; it preserves possible chronological pathways, lessons and evidence gaps. Programme context is owner-supplied; exact formal evaluation-question wording and the full Inception Report are not supplied here.
+Current method is documented in [operationalisation](OPERATIONALISATION_CURRENT.md) and draft v0.2/F1. The [independence audit](../05_VALIDATION/method_independence_audit_20261028.md) corrects earlier assumptions: B was incremental from A, original singleton C copied A, and blinded holistic assessment is not demonstrated. Do not interpret100% track agreement as independent methodological consistency.
 
-Activities provide traceable observations. Country-tracks are the principal grouping for summary review. The current group summary is a maximum of supported eligible activity achievements, not a holistic assessment, average effectiveness measure or causal contribution score. Chronology supports reading possible pathways but cannot prove causation. Counts are descriptive and sensitive to reporting coverage; do not interpret them as success rates or country rankings.
+All 249 activity records remain accounted for. Current defined analytical units number 93, with 14 activities in 7 unresolved holding groups. Labels, dates, original AI/human classifications and manual decisions remain separately traceable. Remaining source limitations are14 mappings and 3 implementation/stage gaps, plus two later diagnostic actor/scope questions; no broad new review is required just to describe known coverage.
 
-## Work completed and authority
+Use the final consolidated workbook as authoritative; the lean three-sheet and analytical six-sheet workbooks are projections, not source replacements. Exact protected paths/hashes are in handover. [History and coverage](../09_INTERNAL_DEEP_DIVE/scoring_and_classification_history_20261028.md) distinguish human selections, AI implementation, provisional scores and absent formal validation.
 
-| Stage | Current position |
-| --- | --- |
-| Confidentiality and reconstruction | Owner cleared cleaned sources for internal reconstruction. The corrected universe has 182 activities, 28 columns, permanent IDs, original mapping and cell-level provenance. Correction QA passed. Clearance is not permission to upload data to GitHub. |
-| Evidence recovery | Systematic explicit recovery and technical corrections completed. Correction pass changed 333 cells: 30 parsing fixes and 303 alternative recoveries, with original provenance retained. |
-| Methodology | Appendix B v0.2 supplies the result definitions; compatible F1 and owner-approved calibration supply working application rules. Not all old proposals are adopted. |
-| Calibration | Revised 20-activity calibration approved as the working basis; six material highest-result holds preserved in full scoring. |
-| Full provisional scoring | 182 records assessed; 126 codes 1–4, two code 6 and 54 unscored. Technical and targeted agent checks complete; no completed human decisions recorded. |
-| Country-track summary | 51 exact source-code groups, 10 provisional numeric maxima, 41 pending; 36 memberships unassigned separately. |
-| Human validation and evaluation conclusions | Pending. Reviewers must adjudicate flagged evidence and scope, preserve AI proposals and update derived summaries in a new version. |
+Descriptive analysis remains usable with scope/missingness/ordinal caveats. Claims of independent method agreement require the separately documented corrective protocol; no rescoring is executed by this audit. Independent case-study comparison also requires scale/missing-code equivalence, exact country-track crosswalk and confidence/human-validation arrangements. Country averages are not effectiveness rankings; reported results are not verified impacts.
 
-The owner authorised internal provisional application, not final human methodological validation or release of findings. Historic acceptance warnings in frozen correction/calibration files describe their creation date; later approvals and completed full-run records establish the current working state. Historical scores and original inputs remain unchanged.
+Read AGENTS, current start page, handover, decision register and [current issues](../05_VALIDATION/issues.md). Earlier setup-only status and documents are retained in versioned history rather than treated as current. GitHub contains privacy-reviewed documentation; authoritative workbooks, raw evidence and annotated scoring code remain external. No SharePoint upload or client release is implied by repository publication.
 
-## Current methodology
 
-Use only the focal activity's own text and the highest directly supported achieved code: 1 activity; 2 delivered output/service; 3 another actor's actual use or next step; 4 external actor change. Code 6 means insufficient information and is not ordinally above 4. Keep materially unresolved cases blank, with alternatives and supported lower bounds where defensible. Future Potential and Evidence Basis remain separate. Unknown track membership does not itself block activity scoring.
+## Current supervisor interface — 28 October 2026
 
-Select evidence consistently using the original variable definitions and reviewed matrix. Explicit alternative-field recovery is permitted with qualifications and provenance, never invented content. GREEN/ORANGE indicate extraction route, not strength. Evidence Basis uses four provisional categories; named sources are not independent verification. No added legal, structural, quantified-effect or independent-corroboration threshold changes the source definitions.
-
-Aggregate only eligible accepted-member achievement scores 1–4. Keep incomplete maxima pending with conditional lower bounds, ties and unresolved membership. An all-6 group means insufficient information. Do not transfer track achievements to individual activities or revive contextualised/holistic scoring as current practice. See [scoring rules](scoring_rules.md) and [operationalisation](OPERATIONALISATION_CURRENT.md).
-
-## Handover and next action
-
-Obtain current restricted files through approved internal access using the [versioned manifest](../02_ACTIVITY_DATA/restricted_manifest_20261104_v1.json). Review the 25 P1 entries first, then material classification gaps and scope questions. Record human decisions with evidence, rationale, reviewer and date separately. Confirm track scope before recalculating maxima and reporting coverage. Obtain approval before final evaluation conclusions.
-
-The full Inception Report/citation, separate final evidence-standardisation one-pager, formal reviewer/adjudication arrangements and old-to-new score crosswalk are still missing. A Word methodology summary exists as a review draft, not a final authoritative one-pager. GitHub hosts documentation and safe manifests only. Secure shared-file access and SharePoint permissions must be verified separately. See [issues](../05_VALIDATION/issues.md), [validation](../05_VALIDATION/project_state_20261104.md) and [history](../09_INTERNAL_DEEP_DIVE/technical_and_decision_history.md).
+A [single five-sheet workbook](../05_VALIDATION/supervisor_consolidation_20261028.md) now brings activity A/B, unique-track original C/D1/D2 and separate frozen C together for review. It changes no classifications, membership or evidence rules. All249 activities,93 defined units and7 clearly separate holding groups are reconciled. The four primary post-freeze questions are distinct from17 old source limitations,2 earlier diagnostics and3 readiness conditions. Blank reviewer notes have no automatic scoring effect. Descriptives count tracks once and expose valid/result-status denominators; they are not effectiveness rankings. Source/frozen files and detailed histories remain external to Git. This is the current review entry point, not a new authoritative scoring version or human approval.
